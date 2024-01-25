@@ -18,78 +18,79 @@ class Direction(Enum):
         return topic.replace(Direction.UNDEFINED.value, Direction.READ.value)
 
 class RoomName(str, Enum):
-    k000 = "Ulazni prostor"
-    k001 = "Ulazni hal"
-    k002 = "WC - invalid"
-    k003 = "WC - ženski"
-    k004 = "WC - zaposlenici"
-    k005 = "WC - muški"
-    k006 = "CUSR"
-    k007 = "Elektro - soba"
-    k008 = "Hodnik"
-    k009 = "Biologija"
-    k010 = "Informatika"
-    k011 = "Kabinet Kem/Bio"
-    k012 = "Kabinet Informatika/Mat"
-    k013 = "Kabinet (lab. Skladište"
-    k014 = "Matematika"
-    k015 = "Kemija"
-    k016 = "Fizika"
-    k017 = "Strojarnica"
-    k018 = "Kabinet fizika"
-    k019 = "Multimedijska dvorana"
-    k020 = "Stubište"
-    k100 = "Stubišni hal"
-    k101 = "Knjižnica"
-    k102 = "Kabinet knjižnice"
-    k103 = "WC - ženski"
-    k104 = "WC - zaposlenici"
-    k105 = "WC - muški"
-    k106 = "WC - invalid"
-    k107 = "Spremište"
-    k108 = "Kabinet Glazbeni / Likovni"
-    k109 = "Hrvatski 1"
-    k110 = "glazbeni"
-    k111 = "Hrvatski 2"
-    k112 = "Kabinet Hrvatski"
-    k113 = "Društvo"
-    k114 = "Geografija"
-    k115 = "Kabinet Geo / Pov"
-    k116 = "Povijest"
-    k117 = "Jezici 2"
-    k118 = "Kabinet Strani Jez"
-    k119 = "Jezici 1"
-    k120 = "Čistačice"
-    k121 = "Hodnik"
-    k122 = "Hodnik"
-    k123 = "Stubište"
-    k124 = "Kapelica"
-    k200 = "Stubišni hal"
-    k201 = "Predprostor zbornice"
-    k202 = "Čajna kuhinja"
-    k203 = "Predprostor WC"
-    k204 = "WC - ženski"
-    k205 = "WC - muški"
-    k206 = "WC - invalid"
-    k207 = "Spremište"
-    k208 = "Zbornica"
-    k209 = "Hodnik"
-    k210 = "Izborni jezik"
-    k211 = "Izborni jezik"
-    k212 = "Primanje roditelja"
-    k213 = "Referada"
-    k214 = "Admin/računovodstvo"
-    k215 = "Spremište/Arhiv"
-    k216 = "Tajnik"
-    k217 = "Satničar"
-    k218 = "Državna matura"
-    k219 = "Pedagog/defektolog"
-    k220 = "Prostor za sastanke"
-    k221 = "Ravnatelj"
-    k222 = "WC - uredi"
-    k223 = "Čajna kuhinja ravnatelj"
-    k225 = "Hodnik"
-    k226 = "Stubište"
+    k000 = "k000 Ulazni prostor"
+    k001 = "k001 Ulazni hal"
+    k002 = "k002 WC - invalid"
+    k003 = "k003 WC - ženski"
+    k004 = "k004 WC - zaposlenici"
+    k005 = "k005 WC - muški"
+    k006 = "k006 CUSR"
+    k007 = "k007 Elektro - soba"
+    k008 = "k008 Hodnik"
+    k009 = "k009 Biologija"
+    k010 = "k010 Informatika"
+    k011 = "k011 Kabinet Kem/Bio"
+    k012 = "k012 Kabinet Informatika/Mat"
+    k013 = "k013 Kabinet (lab. Skladište"
+    k014 = "k014 Matematika"
+    k015 = "k015 Kemija"
+    k016 = "k016 Fizika"
+    k017 = "k017 Strojarnica"
+    k018 = "k018 Kabinet fizika"
+    k019 = "k019 Multimedijska dvorana"
+    k020 = "k020 Stubište"
+    k100 = "k100 Stubišni hal"
+    k101 = "k101 Knjižnica"
+    k102 = "k102 Kabinet knjižnice"
+    k103 = "k103 WC - ženski"
+    k104 = "k104 WC - zaposlenici"
+    k105 = "k105 WC - muški"
+    k106 = "k106 WC - invalid"
+    k107 = "k107 Spremište"
+    k108 = "k108 Kabinet Glazbeni / Likovni"
+    k109 = "k109 Hrvatski 1"
+    k110 = "k110 glazbeni"
+    k111 = "k111 Hrvatski 2"
+    k112 = "k112 Kabinet Hrvatski"
+    k113 = "k113 Društvo"
+    k114 = "k114 Geografija"
+    k115 = "k115 Kabinet Geo / Pov"
+    k116 = "k116 Povijest"
+    k117 = "k117 Jezici 2"
+    k118 = "k118 Kabinet Strani Jez"
+    k119 = "k119 Jezici 1"
+    k120 = "k120 Čistačice"
+    k121 = "k121 Hodnik"
+    k122 = "k122 Hodnik"
+    k123 = "k123 Stubište"
+    k124 = "k124 "
+    k125 = "k125 Kapelica"
+    k200 = "k200 Stubišni hal"
+    k201 = "k201 Predprostor zbornice"
+    k202 = "k202 Čajna kuhinja"
+    k203 = "k203 Predprostor WC"
+    k204 = "k204 WC - ženski"
+    k205 = "k205 WC - muški"
+    k206 = "k206 WC - invalid"
+    k207 = "k207 Spremište"
+    k208 = "k208 Zbornica"
+    k209 = "k209 Hodnik"
+    k210 = "k210 Izborni jezik"
+    k211 = "k211 Izborni jezik"
+    k212 = "k212 Primanje roditelja"
+    k213 = "k213 Referada"
+    k214 = "k214 Admin/računovodstvo"
+    k215 = "k215 Spremište/Arhiv"
+    k216 = "k216 Tajnik"
+    k217 = "k217 Satničar"
+    k218 = "k218 Državna matura"
+    k219 = "k219 Pedagog/defektolog"
+    k220 = "k220 Prostor za sastanke"
+    k221 = "k221 Ravnatelj"
+    k222 = "k222 WC - uredi"
+    k223 = "k223 Čajna kuhinja ravnatelj"
+    k225 = "k225 Hodnik"
+    k226 = "k226 Stubište"
 
 class DeviceName(str, Enum):
     tmp = "obrisi"
@@ -101,8 +102,8 @@ class DeviceName(str, Enum):
     k015 = "0297731943AF"
     k016 = "02977319329F"
     k019 = "02977319390F"
-    k101a = "02068266447B"
-    k101b = "029773193117"
+    k101a = "029773193117"
+    k101b = "02068266447B"
     k109 = "020062033BF7"
     k110 = "020682664A7F"
     k111 = "0206826626E3"
@@ -150,12 +151,17 @@ class Light:
     device: DeviceName
     group: int
     index: int
+    light_index: Optional[int] = None
+
+    def __post_init__(self):
+        if self.light_index is None:
+            self.light_index = self.index
 
     def get_mac_topic(self):
         return f"{self.device.value}/{Direction.UNDEFINED.value}/lights/{self.group}/{self.index}"
 
     def get_sufix(self):
-        return f"lights/{self.group}/{self.index}"
+        return f"lights/{self.light_index}"
 
     def get_room_topic(self, room):
         return f"{room.name.name}/{Direction.UNDEFINED.value}/{self.get_sufix()}"
@@ -184,7 +190,21 @@ class RelayLight:
         return f"{self.device.value}/{Direction.UNDEFINED.value}/R/relay{self.relay_index}"
 
     def get_sufix(self):
-        return f"lights/3/{self.light_index}"
+        return f"lights/{self.light_index}"
+
+    def get_room_topic(self, room):
+        return f"{room.name.name}/{Direction.UNDEFINED.value}/{self.get_sufix()}"
+
+@dataclass
+class Ventilation:
+    device: DeviceName
+    relay_index: int
+
+    def get_mac_topic(self):
+        return f"{self.device.value}/{Direction.UNDEFINED.value}/R/relay{self.relay_index}"
+
+    def get_sufix(self):
+        return f"ventilation"
 
     def get_room_topic(self, room):
         return f"{room.name.name}/{Direction.UNDEFINED.value}/{self.get_sufix()}"
@@ -315,6 +335,7 @@ class Room:
     lights: Optional[List[Light]] | Optional[List[RelayLight]] = None
     rollers: Optional[List[Roller]] = None
     sensors: Optional[List] = None
+    ventilations: Optional[List[Ventilation]] = None
 
     def __post_init__(self):
         if self.lights is None:
@@ -323,6 +344,8 @@ class Room:
             self.rollers = []
         if self.sensors is None:
             self.sensors = []
+        if self.ventilations is None:
+            self.ventilations = []
 
     def generate_topics(self):
         topics = {}
@@ -342,6 +365,11 @@ class Room:
                 topic_mac = sensor.get_mac_topic()
                 topic_room = sensor.get_room_topic(room)
                 #topics[Direction.write(topic_room)] = Direction.write(topic_mac)
+                topics[Direction.read(topic_mac)] = Direction.read(topic_room)
+            for ventilation in room.ventilations:
+                topic_mac = ventilation.get_mac_topic()
+                topic_room = ventilation.get_room_topic(room)
+                topics[Direction.write(topic_room)] = Direction.write(topic_mac)
                 topics[Direction.read(topic_mac)] = Direction.read(topic_room)
         return topics
 
@@ -478,8 +506,9 @@ def get_rooms():
             HumiditySensor(DeviceName.k015, BoardName.s2),
             GasSensor(DeviceName.k015, BoardName.s2),
             AltitudeSensor(DeviceName.k015, BoardName.s2),
-            RadarSensor(DeviceName.k015, BoardName.s2)
-            ]))
+            RadarSensor(DeviceName.k015, BoardName.s2)],
+        ventilations = [
+            Ventilation(DeviceName.k015, 2)]))
 
     rooms.append(Room(
         name = RoomName.k014,
@@ -508,8 +537,9 @@ def get_rooms():
             HumiditySensor(DeviceName.k015, BoardName.s1),
             GasSensor(DeviceName.k015, BoardName.s1),
             AltitudeSensor(DeviceName.k015, BoardName.s1),
-            RadarSensor(DeviceName.k015, BoardName.s1)
-            ]))
+            RadarSensor(DeviceName.k015, BoardName.s1)],
+        ventilations = [
+            Ventilation(DeviceName.k015, 1)]))
 
     rooms.append(Room(
         name = RoomName.k016,
@@ -564,7 +594,7 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k100,
-        lights = [Light(DeviceName.k101b, 1, 1), Light(DeviceName.k101b, 1, 2)],
+        lights = [Light(DeviceName.k101b, 1, 1)],
         rollers = [Roller(DeviceName.k101b, 1)],
         sensors = [
             LightSensor(DeviceName.k101b, BoardName.s1),
@@ -818,16 +848,21 @@ def get_rooms():
             ]))
 
     rooms.append(Room(
-        name = RoomName.k121))
+        name = RoomName.k121,
+        lights = [RelayLight(DeviceName.k101b, 9, 1)]))
 
     rooms.append(Room(
-        name = RoomName.k122))
+        name = RoomName.k122,
+        lights = [Light(DeviceName.k101b, 1, 2, 1)]))
     
     rooms.append(Room(
         name = RoomName.k123))
 
     rooms.append(Room(
-        name = RoomName.k124,
+        name = RoomName.k124))
+
+    rooms.append(Room(
+        name = RoomName.k125,
         lights = [Light(DeviceName.k101a, 2, 1)],
         rollers = [Roller(DeviceName.k101a, 2)],
         sensors = [
@@ -1094,9 +1129,9 @@ def get_room_by_name(room_name):
             return room
     return None
 
-def get_light_by_group_and_index(lights, group, index):
+def get_light_by_index(lights, index):
     for light in lights:
-        if light.group == group and light.index == index:
+        if light.light_index == index:
             return light
     return None
 

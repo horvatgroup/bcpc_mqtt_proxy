@@ -57,17 +57,34 @@ def describe_room(room_name: str):
         print("No such room")
 
 @app.command()
-def turn_light(room_name: str, group: int, index: int, state: int):
+def turn_light(room_name: str, index: int, state: int):
     room = topics.get_room_by_name(room_name)
     if room is not None:
-        light = topics.get_light_by_group_and_index(room.lights, group, index)
+        light = topics.get_light_by_index(room.lights, index)
         if light is not None:
             topic = light.get_room_topic(room)
             payload = asyncio.run(write_to_topic(topics.Direction.write(topic), state, topics.Direction.read(topic)))
             if payload is not None:
                 print(f"Received: {topics.Direction.read(topic)} -> {payload}")
+            else:
+                print(f"Original topic {light.get_mac_topic()}")
         else:
-            print(f"No such light[{group}, {index}] in room[{room_name}]]")
+            print(f"No such light[{index}] in room[{room_name}]]")
+    else:
+        print(f"No such room[{room_name}]")
+
+@app.command()
+def turn_ventilation(room_name: str, state: int):
+    room = topics.get_room_by_name(room_name)
+    if room is not None:
+        if len(room.ventilations) == 1:
+            ventilation = room.ventilations[0]
+            topic = ventilation.get_room_topic(room)
+            payload = asyncio.run(write_to_topic(topics.Direction.write(topic), state, topics.Direction.read(topic)))
+            if payload is not None:
+                print(f"Received: {topics.Direction.read(topic)} -> {payload}")
+        else:
+            print(f"No ventilation in room[{room_name}]]")
     else:
         print(f"No such room[{room_name}]")
 
