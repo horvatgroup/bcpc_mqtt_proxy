@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  arch:
+    build: ./
+    container_name: bcpc_mqtt_proxy
+    restart: unless-stopped
+    network_mode: host
+    environment:
+    - PYTHONUNBUFFERED=1
+
+#networks:
+  #default:
+    #external:
+      #name: letsencrypt
