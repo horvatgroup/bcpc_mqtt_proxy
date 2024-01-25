@@ -331,18 +331,18 @@ class Room:
             for light in room.lights:
                 topic_mac = light.get_mac_topic()
                 topic_room = light.get_room_topic(room)
-                topics[Direction.write(topic_mac)] = Direction.write(topic_room)
-                topics[Direction.read(topic_room)] = Direction.read(topic_mac)
+                topics[Direction.write(topic_room)] = Direction.write(topic_mac)
+                topics[Direction.read(topic_mac)] = Direction.read(topic_room)
             for roller in room.rollers:
                 topic_mac = roller.get_mac_topic()
                 topic_room = roller.get_room_topic(room)
-                topics[Direction.write(topic_mac)] = Direction.write(topic_room)
-                topics[Direction.read(topic_room)] = Direction.read(topic_mac)
+                topics[Direction.write(topic_room)] = Direction.write(topic_mac)
+                topics[Direction.read(topic_mac)] = Direction.read(topic_room)
             for sensor in room.sensors:
                 topic_mac = sensor.get_mac_topic()
                 topic_room = sensor.get_room_topic(room)
-                topics[Direction.write(topic_mac)] = Direction.write(topic_room)
-                #topics[Direction.read(topic_room)] = Direction.read(topic_mac)
+                #topics[Direction.write(topic_room)] = Direction.write(topic_mac)
+                topics[Direction.read(topic_mac)] = Direction.read(topic_room)
         return topics
 
 def get_devices():

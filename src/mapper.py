@@ -2,6 +2,7 @@
 
 import topics
 import mqtt
+import credentials
 
 topics_map = topics.get_topics()
 
@@ -17,7 +18,7 @@ def on_msg_received(mqtt, topic, payload):
             print(f"topic not in topics_map {topic}")
 
 if __name__ == "__main__":
-    mqtt = mqtt.MqttClient()
+    mqtt = mqtt.MqttClient(host=credentials.host, port=credentials.port, username=credentials.username, password=credentials.password)
     mqtt.register_on_connect_listener(on_connect)
     mqtt.register_on_message_listener(on_msg_received)
     mqtt.blocking()

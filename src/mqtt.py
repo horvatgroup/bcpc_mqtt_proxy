@@ -36,8 +36,8 @@ class MqttClient:
     def subscribe(self, topic):
         self.mqtt_client.subscribe(topic, qos=1)
 
-    def publish(self, topic, payload):
-        self.mqtt_client.publish(topic, payload=payload, retain=True, qos=1)
+    def publish(self, topic, payload, retain=False):
+        self.mqtt_client.publish(topic, payload=payload, retain=retain, qos=1)
 
     def register_on_connect_listener(self, func):
         self.callback_connect_func = func
