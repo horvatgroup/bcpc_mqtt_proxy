@@ -1,0 +1,639 @@
+  - id: k000_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-00 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 029773192D9F/in/lights/1/1
+      stateTopic: 029773192D9F/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k000_light_2
+    channelTypeUID: mqtt:switch
+    label: K0-00 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 029773192D9F/in/lights/1/2
+      stateTopic: 029773192D9F/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k001_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-01 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 029773192D9F/in/lights/2/1
+      stateTopic: 029773192D9F/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k007_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-07 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 029773191B9F/in/R/relay1
+      stateTopic: 029773191B9F/out/R/relay1
+      off: "0"
+      on: "1"
+  - id: k008_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-08 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 029773191B9F/in/R/relay2
+      stateTopic: 029773191B9F/out/R/relay2
+      off: "0"
+      on: "1"
+  - id: k009_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-09 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 0235610921FB/in/lights/1/1
+      stateTopic: 0235610921FB/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k009_light_2
+    channelTypeUID: mqtt:switch
+    label: K0-09 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 0235610921FB/in/lights/1/2
+      stateTopic: 0235610921FB/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k010_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-10 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 023561093693/in/lights/1/1
+      stateTopic: 023561093693/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k010_light_2
+    channelTypeUID: mqtt:switch
+    label: K0-10 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 023561093693/in/lights/1/2
+      stateTopic: 023561093693/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k011_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-11 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 0235610921FB/in/lights/2/1
+      stateTopic: 0235610921FB/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k012_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-12 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 021991464317/in/lights/2/1
+      stateTopic: 021991464317/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k013_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-13 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 0297731943AF/in/lights/2/1
+      stateTopic: 0297731943AF/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k014_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-14 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 021991464317/in/lights/1/1
+      stateTopic: 021991464317/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k014_light_2
+    channelTypeUID: mqtt:switch
+    label: K0-14 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 021991464317/in/lights/1/2
+      stateTopic: 021991464317/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k015_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-15 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 0297731943AF/in/lights/1/1
+      stateTopic: 0297731943AF/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k015_light_2
+    channelTypeUID: mqtt:switch
+    label: K0-15 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 0297731943AF/in/lights/1/2
+      stateTopic: 0297731943AF/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k016_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-16 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 02977319329F/in/lights/1/1
+      stateTopic: 02977319329F/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k016_light_2
+    channelTypeUID: mqtt:switch
+    label: K0-16 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 02977319329F/in/lights/1/2
+      stateTopic: 02977319329F/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k018_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-18 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 02977319329F/in/lights/2/1
+      stateTopic: 02977319329F/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k019_light_1
+    channelTypeUID: mqtt:switch
+    label: K0-19 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 02977319390F/in/lights/1/1
+      stateTopic: 02977319390F/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k019_light_2
+    channelTypeUID: mqtt:switch
+    label: K0-19 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 02977319390F/in/lights/1/2
+      stateTopic: 02977319390F/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k100_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-00 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 02068266447B/in/lights/1/1
+      stateTopic: 02068266447B/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k101_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-01 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 029773193117/in/lights/1/1
+      stateTopic: 029773193117/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k101_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-01 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 029773193117/in/lights/1/2
+      stateTopic: 029773193117/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k102_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-02 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 02068266447B/in/lights/2/1
+      stateTopic: 02068266447B/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k108_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-08 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 020062033BF7/in/lights/2/1
+      stateTopic: 020062033BF7/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k109_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-09 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020062033BF7/in/lights/1/1
+      stateTopic: 020062033BF7/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k109_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-09 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020062033BF7/in/lights/1/2
+      stateTopic: 020062033BF7/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k110_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-10 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020682664A7F/in/lights/1/1
+      stateTopic: 020682664A7F/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k110_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-10 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020682664A7F/in/lights/1/2
+      stateTopic: 020682664A7F/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k111_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-11 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 0206826626E3/in/lights/1/1
+      stateTopic: 0206826626E3/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k111_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-11 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 0206826626E3/in/lights/1/2
+      stateTopic: 0206826626E3/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k112_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-12 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 0206826626E3/in/lights/2/1
+      stateTopic: 0206826626E3/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k113_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-13 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 0206826634B3/in/lights/1/1
+      stateTopic: 0206826634B3/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k113_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-13 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 0206826634B3/in/lights/1/2
+      stateTopic: 0206826634B3/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k114_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-14 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020682661AC7/in/lights/1/1
+      stateTopic: 020682661AC7/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k114_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-14 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020682661AC7/in/lights/1/2
+      stateTopic: 020682661AC7/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k115_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-15 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 023561094773/in/lights/2/1
+      stateTopic: 023561094773/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k116_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-16 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 023561094773/in/lights/1/1
+      stateTopic: 023561094773/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k116_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-16 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 023561094773/in/lights/1/2
+      stateTopic: 023561094773/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k117_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-17 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020682664CC7/in/lights/1/1
+      stateTopic: 020682664CC7/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k117_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-17 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020682664CC7/in/lights/1/2
+      stateTopic: 020682664CC7/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k118_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-18 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 020682664CC7/in/lights/2/1
+      stateTopic: 020682664CC7/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k119_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-19 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020682663197/in/lights/1/1
+      stateTopic: 020682663197/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k119_light_2
+    channelTypeUID: mqtt:switch
+    label: K1-19 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020682663197/in/lights/1/2
+      stateTopic: 020682663197/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k120_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-20 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 020682663197/in/lights/2/1
+      stateTopic: 020682663197/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k121_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-21 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 02068266447B/in/R/relay9
+      stateTopic: 02068266447B/out/R/relay9
+      off: "0"
+      on: "1"
+  - id: k122_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-22 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 02068266447B/in/lights/1/2
+      stateTopic: 02068266447B/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k124_light_1
+    channelTypeUID: mqtt:switch
+    label: K1-24 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 029773193117/in/lights/2/1
+      stateTopic: 029773193117/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k208_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-08 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 02068266368F/in/lights/1/1
+      stateTopic: 02068266368F/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k208_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-08 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 02068266368F/in/lights/1/2
+      stateTopic: 02068266368F/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k209_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-09 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/R/relay12
+      stateTopic: 023561093B73/out/R/relay12
+      off: "0"
+      on: "1"
+  - id: k210_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-10 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/lights/1/1
+      stateTopic: 023561093B73/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k210_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-10 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/lights/1/2
+      stateTopic: 023561093B73/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k211_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-11 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/lights/2/1
+      stateTopic: 023561093B73/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k212_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-12 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 0206826652D7/in/lights/1/1
+      stateTopic: 0206826652D7/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k212_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-12 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 0206826652D7/in/lights/1/2
+      stateTopic: 0206826652D7/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k213_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-13 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020682663FE3/in/lights/1/1
+      stateTopic: 020682663FE3/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k213_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-13 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020682663FE3/in/lights/1/2
+      stateTopic: 020682663FE3/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k214_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-14 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 020682663FE3/in/lights/2/1
+      stateTopic: 020682663FE3/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k215_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-15 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 02068266355B/in/lights/1/1
+      stateTopic: 02068266355B/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k215_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-15 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 02068266355B/in/lights/1/2
+      stateTopic: 02068266355B/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k216_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-16 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 020682664DC3/in/lights/2/1
+      stateTopic: 020682664DC3/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k217_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-17 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: obrisi/in/lights/1/1
+      stateTopic: obrisi/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k217_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-17 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: obrisi/in/lights/1/2
+      stateTopic: obrisi/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k218_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-18 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020682662F63/in/lights/1/1
+      stateTopic: 020682662F63/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k218_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-18 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020682662F63/in/lights/1/2
+      stateTopic: 020682662F63/out/lights/1/2
+      off: "0"
+      on: "1"
+  - id: k219_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-19 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 020682662F63/in/lights/2/1
+      stateTopic: 020682662F63/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k220_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-20 Svjetlo
+    description: null
+    configuration:
+      commandTopic: 020682663DE3/in/lights/2/1
+      stateTopic: 020682663DE3/out/lights/2/1
+      off: "0"
+      on: "1"
+  - id: k221_light_1
+    channelTypeUID: mqtt:switch
+    label: K2-21 Svjetlo 1
+    description: null
+    configuration:
+      commandTopic: 020682663DE3/in/lights/1/1
+      stateTopic: 020682663DE3/out/lights/1/1
+      off: "0"
+      on: "1"
+  - id: k221_light_2
+    channelTypeUID: mqtt:switch
+    label: K2-21 Svjetlo 2
+    description: null
+    configuration:
+      commandTopic: 020682663DE3/in/lights/1/2
+      stateTopic: 020682663DE3/out/lights/1/2
+      off: "0"
+      on: "1"

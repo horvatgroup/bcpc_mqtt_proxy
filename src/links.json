@@ -1,0 +1,1351 @@
+{
+    "k000_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k000_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k000_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k000_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k000_light_1"
+        }
+    },
+    "k000_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k000_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k000_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k000_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k000_light_2"
+        }
+    },
+    "k001_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k001_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k001_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k001_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k001_light_1"
+        }
+    },
+    "k007_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k007_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k007_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k007_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k007_light_1"
+        }
+    },
+    "k008_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k008_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k008_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k008_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k008_light_1"
+        }
+    },
+    "k009_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k009_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k009_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k009_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k009_light_1"
+        }
+    },
+    "k009_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k009_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k009_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k009_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k009_light_2"
+        }
+    },
+    "k010_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k010_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k010_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k010_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k010_light_1"
+        }
+    },
+    "k010_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k010_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k010_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k010_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k010_light_2"
+        }
+    },
+    "k011_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k011_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k011_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k011_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k011_light_1"
+        }
+    },
+    "k012_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k012_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k012_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k012_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k012_light_1"
+        }
+    },
+    "k013_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k013_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k013_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k013_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k013_light_1"
+        }
+    },
+    "k014_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k014_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k014_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k014_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k014_light_1"
+        }
+    },
+    "k014_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k014_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k014_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k014_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k014_light_2"
+        }
+    },
+    "k015_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k015_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k015_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k015_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k015_light_1"
+        }
+    },
+    "k015_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k015_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k015_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k015_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k015_light_2"
+        }
+    },
+    "k016_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k016_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k016_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k016_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k016_light_1"
+        }
+    },
+    "k016_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k016_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k016_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k016_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k016_light_2"
+        }
+    },
+    "k018_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k018_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k018_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k018_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k018_light_1"
+        }
+    },
+    "k019_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k019_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k019_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k019_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k019_light_1"
+        }
+    },
+    "k019_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k019_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k019_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k019_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k019_light_2"
+        }
+    },
+    "k100_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k100_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k100_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k100_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k100_light_1"
+        }
+    },
+    "k101_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k101_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k101_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k101_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k101_light_1"
+        }
+    },
+    "k101_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k101_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k101_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k101_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k101_light_2"
+        }
+    },
+    "k102_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k102_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k102_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k102_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k102_light_1"
+        }
+    },
+    "k108_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k108_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k108_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k108_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k108_light_1"
+        }
+    },
+    "k109_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k109_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k109_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k109_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k109_light_1"
+        }
+    },
+    "k109_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k109_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k109_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k109_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k109_light_2"
+        }
+    },
+    "k110_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k110_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k110_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k110_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k110_light_1"
+        }
+    },
+    "k110_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k110_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k110_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k110_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k110_light_2"
+        }
+    },
+    "k111_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k111_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k111_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k111_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k111_light_1"
+        }
+    },
+    "k111_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k111_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k111_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k111_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k111_light_2"
+        }
+    },
+    "k112_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k112_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k112_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k112_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k112_light_1"
+        }
+    },
+    "k113_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k113_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k113_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k113_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k113_light_1"
+        }
+    },
+    "k113_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k113_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k113_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k113_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k113_light_2"
+        }
+    },
+    "k114_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k114_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k114_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k114_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k114_light_1"
+        }
+    },
+    "k114_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k114_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k114_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k114_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k114_light_2"
+        }
+    },
+    "k115_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k115_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k115_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k115_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k115_light_1"
+        }
+    },
+    "k116_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k116_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k116_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k116_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k116_light_1"
+        }
+    },
+    "k116_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k116_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k116_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k116_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k116_light_2"
+        }
+    },
+    "k117_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k117_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k117_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k117_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k117_light_1"
+        }
+    },
+    "k117_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k117_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k117_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k117_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k117_light_2"
+        }
+    },
+    "k118_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k118_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k118_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k118_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k118_light_1"
+        }
+    },
+    "k119_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k119_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k119_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k119_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k119_light_1"
+        }
+    },
+    "k119_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k119_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k119_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k119_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k119_light_2"
+        }
+    },
+    "k120_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k120_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k120_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k120_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k120_light_1"
+        }
+    },
+    "k121_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k121_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k121_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k121_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k121_light_1"
+        }
+    },
+    "k122_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k122_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k122_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k122_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k122_light_1"
+        }
+    },
+    "k124_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k124_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k124_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k124_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k124_light_1"
+        }
+    },
+    "k208_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k208_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k208_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k208_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k208_light_1"
+        }
+    },
+    "k208_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k208_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k208_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k208_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k208_light_2"
+        }
+    },
+    "k209_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k209_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k209_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k209_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k209_light_1"
+        }
+    },
+    "k210_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k210_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k210_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k210_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k210_light_1"
+        }
+    },
+    "k210_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k210_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k210_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k210_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k210_light_2"
+        }
+    },
+    "k211_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k211_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k211_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k211_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k211_light_1"
+        }
+    },
+    "k212_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k212_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k212_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k212_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k212_light_1"
+        }
+    },
+    "k212_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k212_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k212_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k212_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k212_light_2"
+        }
+    },
+    "k213_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k213_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k213_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k213_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k213_light_1"
+        }
+    },
+    "k213_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k213_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k213_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k213_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k213_light_2"
+        }
+    },
+    "k214_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k214_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k214_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k214_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k214_light_1"
+        }
+    },
+    "k215_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k215_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k215_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k215_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k215_light_1"
+        }
+    },
+    "k215_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k215_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k215_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k215_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k215_light_2"
+        }
+    },
+    "k216_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k216_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k216_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k216_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k216_light_1"
+        }
+    },
+    "k217_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k217_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k217_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k217_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k217_light_1"
+        }
+    },
+    "k217_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k217_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k217_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k217_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k217_light_2"
+        }
+    },
+    "k218_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k218_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k218_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k218_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k218_light_1"
+        }
+    },
+    "k218_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k218_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k218_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k218_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k218_light_2"
+        }
+    },
+    "k219_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k219_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k219_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k219_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k219_light_1"
+        }
+    },
+    "k220_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k220_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k220_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k220_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k220_light_1"
+        }
+    },
+    "k221_light_1 -> mqtt:topic:ac491caaaa:hg_smartschool:k221_light_1": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k221_light_1"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k221_light_1"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k221_light_1"
+        }
+    },
+    "k221_light_2 -> mqtt:topic:ac491caaaa:hg_smartschool:k221_light_2": {
+        "class": "org.openhab.core.thing.link.ItemChannelLink",
+        "value": {
+            "channelUID": {
+                "segments": [
+                    "mqtt",
+                    "topic",
+                    "ac491caaaa",
+                    "hg_smartschool",
+                    "k221_light_2"
+                ],
+                "uid": "mqtt:topic:ac491caaaa:hg_smartschool:k221_light_2"
+            },
+            "configuration": {
+                "properties": {}
+            },
+            "itemName": "k221_light_2"
+        }
+    }
+}

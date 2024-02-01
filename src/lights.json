@@ -1,0 +1,1067 @@
+{
+    "k000_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k000",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-00 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k000_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k000",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-00 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k001_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k001",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-01 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k007_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k007",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-07 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k008_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k008",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-08 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k009_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k009",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-09 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k009_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k009",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-09 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k010_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k010",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-10 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k010_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k010",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-10 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k011_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k011",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-11 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k012_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k012",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-12 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k013_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k013",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-13 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k014_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k014",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-14 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k014_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k014",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-14 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k015_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k015",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-15 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k015_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k015",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-15 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k016_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k016",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-16 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k016_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k016",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-16 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k018_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k018",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-18 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k019_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k019",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-19 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k019_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k019",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K0-19 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k100_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k100",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-00 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k101_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k101",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-01 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k101_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k101",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-01 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k102_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k102",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-02 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k108_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k108",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-08 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k109_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k109",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-09 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k109_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k109",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-09 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k110_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k110",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-10 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k110_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k110",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-10 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k111_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k111",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-11 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k111_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k111",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-11 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k112_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k112",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-12 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k113_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k113",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-13 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k113_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k113",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-13 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k114_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k114",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-14 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k114_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k114",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-14 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k115_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k115",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-15 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k116_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k116",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-16 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k116_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k116",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-16 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k117_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k117",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-17 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k117_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k117",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-17 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k118_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k118",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-18 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k119_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k119",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-19 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k119_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k119",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-19 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k120_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k120",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-20 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k121_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k121",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-21 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k122_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k122",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-22 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k124_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k124",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K1-24 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k208_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k208",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-08 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k208_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k208",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-08 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k209_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k209",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-09 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k210_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k210",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-10 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k210_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k210",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-10 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k211_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k211",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-11 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k212_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k212",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-12 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k212_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k212",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-12 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k213_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k213",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-13 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k213_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k213",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-13 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k214_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k214",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-14 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k215_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k215",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-15 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k215_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k215",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-15 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k216_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k216",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-16 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k217_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k217",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-17 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k217_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k217",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-17 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k218_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k218",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-18 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k218_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k218",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-18 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k219_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k219",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-19 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k220_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k220",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-20 Svjetlo",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k221_light_1": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k221",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-21 Svjetlo 1",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    },
+    "k221_light_2": {
+        "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+        "value": {
+            "category": "lightbulb",
+            "groupNames": [
+                "k221",
+                "glights"
+            ],
+            "itemType": "Switch",
+            "label": "K2-21 Svjetlo 2",
+            "tags": [
+                "Lightbulb"
+            ]
+        }
+    }
+}

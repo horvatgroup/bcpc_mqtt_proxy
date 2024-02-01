@@ -17,83 +17,88 @@ class Direction(Enum):
     def read(topic):
         return topic.replace(Direction.UNDEFINED.value, Direction.READ.value)
 
-class RoomName(str, Enum):
-    k000 = "k000 Ulazni prostor"
-    k001 = "k001 Ulazni hal"
-    k002 = "k002 WC - invalid"
-    k003 = "k003 WC - ženski"
-    k004 = "k004 WC - zaposlenici"
-    k005 = "k005 WC - muški"
-    k006 = "k006 CUSR"
-    k007 = "k007 Elektro - soba"
-    k008 = "k008 Hodnik"
-    k009 = "k009 Biologija"
-    k010 = "k010 Informatika"
-    k011 = "k011 Kabinet Kem/Bio"
-    k012 = "k012 Kabinet Informatika/Mat"
-    k013 = "k013 Kabinet (lab. Skladište"
-    k014 = "k014 Matematika"
-    k015 = "k015 Kemija"
-    k016 = "k016 Fizika"
-    k017 = "k017 Strojarnica"
-    k018 = "k018 Kabinet fizika"
-    k019 = "k019 Multimedijska dvorana"
-    k020 = "k020 Stubište"
-    k100 = "k100 Stubišni hal"
-    k101 = "k101 Knjižnica"
-    k102 = "k102 Kabinet knjižnice"
-    k103 = "k103 WC - ženski"
-    k104 = "k104 WC - zaposlenici"
-    k105 = "k105 WC - muški"
-    k106 = "k106 WC - invalid"
-    k107 = "k107 Spremište"
-    k108 = "k108 Kabinet Glazbeni / Likovni"
-    k109 = "k109 Hrvatski 1"
-    k110 = "k110 glazbeni"
-    k111 = "k111 Hrvatski 2"
-    k112 = "k112 Kabinet Hrvatski"
-    k113 = "k113 Društvo"
-    k114 = "k114 Geografija"
-    k115 = "k115 Kabinet Geo / Pov"
-    k116 = "k116 Povijest"
-    k117 = "k117 Jezici 2"
-    k118 = "k118 Kabinet Strani Jez"
-    k119 = "k119 Jezici 1"
-    k120 = "k120 Čistačice"
-    k121 = "k121 Hodnik"
-    k122 = "k122 Hodnik"
-    k123 = "k123 Stubište"
-    k124 = "k124 "
-    k125 = "k125 Kapelica"
-    k200 = "k200 Stubišni hal"
-    k201 = "k201 Predprostor zbornice"
-    k202 = "k202 Čajna kuhinja"
-    k203 = "k203 Predprostor WC"
-    k204 = "k204 WC - ženski"
-    k205 = "k205 WC - muški"
-    k206 = "k206 WC - invalid"
-    k207 = "k207 Spremište"
-    k208 = "k208 Zbornica"
-    k209 = "k209 Hodnik"
-    k210 = "k210 Izborni jezik"
-    k211 = "k211 Izborni jezik"
-    k212 = "k212 Primanje roditelja"
-    k213 = "k213 Referada"
-    k214 = "k214 Admin/računovodstvo"
-    k215 = "k215 Spremište/Arhiv"
-    k216 = "k216 Tajnik"
-    k217 = "k217 Satničar"
-    k218 = "k218 Državna matura"
-    k219 = "k219 Pedagog/defektolog"
-    k220 = "k220 Prostor za sastanke"
-    k221 = "k221 Ravnatelj"
-    k222 = "k222 WC - uredi"
-    k223 = "k223 Čajna kuhinja ravnatelj"
-    k225 = "k225 Hodnik"
-    k226 = "k226 Stubište"
+@dataclass
+class RoomDescription:
+    id: str
+    label: str
+    category: str
+
+class RoomName(RoomDescription, Enum):
+    k000 = "k000", "Ulazni prostor", "corridor"
+    k001 = "k001", "Ulazni hal", "corridor"
+    k002 = "k002", "WC - invalid", "wc"
+    k003 = "k003", "WC - ženski", "wc"
+    k004 = "k004", "WC - zaposlenici", "wc"
+    k005 = "k005", "WC - muški", "wc"
+    k006 = "k006", "CUSR", "maintanance"
+    k007 = "k007", "Elektro - soba", "maintanance"
+    k008 = "k008", "Hodnik", "corridor"
+    k009 = "k009", "Biologija", "classroom"
+    k010 = "k010", "Informatika", "classroom"
+    k011 = "k011", "Kabinet Kem/Bio", "classroomoffice"
+    k012 = "k012", "Kabinet Informatika/Mat", "classroomoffice"
+    k013 = "k013", "Kabinet laboratorij", "classroomoffice"
+    k014 = "k014", "Matematika", "classroom"
+    k015 = "k015", "Kemija", "classroom"
+    k016 = "k016", "Fizika", "classroom"
+    k017 = "k017", "Strojarnica", "maintanance"
+    k018 = "k018", "Kabinet fizika", "classroomoffice"
+    k019 = "k019", "Multimedijska dvorana", "classroom"
+    k020 = "k020", "Stubište", "corridor"
+    k100 = "k100", "Stubišni hal", "corridor"
+    k101 = "k101", "Knjižnica", "classroom"
+    k102 = "k102", "Kabinet knjižnice", "classroomoffice"
+    k103 = "k103", "WC - ženski", "wc"
+    k104 = "k104", "WC - zaposlenici", "wc"
+    k105 = "k105", "WC - muški", "wc"
+    k106 = "k106", "WC - invalid", "wc"
+    k107 = "k107", "Spremište", "maintanance"
+    k108 = "k108", "Kabinet Umjetnost/Vjeronauk", "classroomoffice"
+    k109 = "k109", "Hrvatski 1", "classroom"
+    k110 = "k110", "Umjetnost/Vjeronauk", "classroom"
+    k111 = "k111", "Hrvatski 2", "classroom"
+    k112 = "k112", "Kabinet Hrvatski", "classroomoffice"
+    k113 = "k113", "Društvo", "classroom"
+    k114 = "k114", "Geografija", "classroom"
+    k115 = "k115", "Kabinet Geo / Pov", "classroomoffice"
+    k116 = "k116", "Povijest", "classroom"
+    k117 = "k117", "Jezici 2", "classroom"
+    k118 = "k118", "Kabinet jezici", "classroomoffice"
+    k119 = "k119", "Jezici 1", "classroom"
+    k120 = "k120", "Čistačice", "maintanance"
+    k121 = "k121", "Prostor za odmor", "corridor"
+    k122 = "k122", "Hodnik", "corridor"
+    k123 = "k123", "Stubište", "corridor"
+    k124 = "k124", "Kapelica", "corridor"
+    k200 = "k200", "Stubišni hal", "corridor"
+    k201 = "k201", "Predprostor zbornice", "corridor"
+    k202 = "k202", "Čajna kuhinja", "kitchen"
+    k203 = "k203", "Predprostor WC", "corridor"
+    k204 = "k204", "WC - ženski", "wc"
+    k205 = "k205", "WC - muški", "wc"
+    k206 = "k206", "WC - invalid", "wc"
+    k207 = "k207", "Spremište", "maintanance"
+    k208 = "k208", "Zbornica", "office"
+    k209 = "k209", "Hodnik", "corridor"
+    k210 = "k210", "Jezici 3", "classroom"
+    k211 = "k211", "Izborni predmet", "classroom"
+    k212 = "k212", "Primanje roditelja", "office"
+    k213 = "k213", "Referada", "office"
+    k214 = "k214", "Admin/računovodstvo", "office"
+    k215 = "k215", "Spremište/Arhiv", "office"
+    k216 = "k216", "Tajnik", "office"
+    k217 = "k217", "Satničar", "office"
+    k218 = "k218", "Državna matura", "office"
+    k219 = "k219", "Pedagog/defektolog", "office"
+    k220 = "k220", "Prostor za sastanke", "office"
+    k221 = "k221", "Ravnatelj", "office"
+    k222 = "k222", "WC - uredi", "wc"
+    k223 = "k223", "Čajna kuhinja ravnatelj", "kitchen"
+    k225 = "k225", "Hodnik", "corridor"
+    k226 = "k226", "Stubište", "corridor"
+    d000 = "d000", "Dvorište", "outdoor"
 
 class DeviceName(str, Enum):
-    tmp = "obrisi"
     k001 = "029773192D9F"
     k007 = "029773191B9F"
     k009 = "0235610921FB"
@@ -113,7 +118,7 @@ class DeviceName(str, Enum):
     k117 = "020682664CC7"
     k119 = "020682663197"
     k208 = "02068266368F"
-    k211a = "023561093B73"
+    k211a = "023561093B73" # net issues
     k211b = "0206826652D7"
     k211c = "020682663FE3"
     k218a = "020682663DE3"
@@ -185,6 +190,7 @@ class RelayLight:
     device: DeviceName
     relay_index: int
     light_index: int
+    alias: Optional[str] = None
 
     def get_mac_topic(self):
         return f"{self.device.value}/{Direction.UNDEFINED.value}/R/relay{self.relay_index}"
@@ -205,6 +211,37 @@ class Ventilation:
 
     def get_sufix(self):
         return f"ventilation"
+
+    def get_room_topic(self, room):
+        return f"{room.name.name}/{Direction.UNDEFINED.value}/{self.get_sufix()}"
+
+@dataclass
+class AcSocket:
+    device: DeviceName
+    relay_index: int
+    ac_socket_index: int
+
+    def get_mac_topic(self):
+        return f"{self.device.value}/{Direction.UNDEFINED.value}/R/relay{self.relay_index}"
+
+    def get_sufix(self):
+        return f"ac_socket/{self.ac_socket_index}"
+
+    def get_room_topic(self, room):
+        return f"{room.name.name}/{Direction.UNDEFINED.value}/{self.get_sufix()}"
+
+@dataclass
+class HeatingValve:
+    device: DeviceName
+    relay_index: int
+    raz: str
+    alias: Optional[str] = None
+
+    def get_mac_topic(self):
+        return f"{self.device.value}/{Direction.UNDEFINED.value}/R/relay{self.relay_index}"
+
+    def get_sufix(self):
+        return f"heating_valve"
 
     def get_room_topic(self, room):
         return f"{room.name.name}/{Direction.UNDEFINED.value}/{self.get_sufix()}"
@@ -332,10 +369,12 @@ class Errors:
 @dataclass
 class Room:
     name: RoomName
-    lights: Optional[List[Light]] | Optional[List[RelayLight]] = None
+    lights: Optional[List[Light|RelayLight]] = None
     rollers: Optional[List[Roller]] = None
     sensors: Optional[List] = None
     ventilations: Optional[List[Ventilation]] = None
+    ac_sockets: Optional[List[AcSocket]] = None
+    heating_valves: Optional[List[HeatingValve]] = None
 
     def __post_init__(self):
         if self.lights is None:
@@ -346,6 +385,8 @@ class Room:
             self.sensors = []
         if self.ventilations is None:
             self.ventilations = []
+        if self.ac_sockets is None:
+            self.ac_sockets = []
 
     def generate_topics(self):
         topics = {}
@@ -371,6 +412,16 @@ class Room:
                 topic_room = ventilation.get_room_topic(room)
                 topics[Direction.write(topic_room)] = Direction.write(topic_mac)
                 topics[Direction.read(topic_mac)] = Direction.read(topic_room)
+            for ac_socket in room.ac_sockets:
+                topic_mac = ac_socket.get_mac_topic()
+                topic_room = ac_socket.get_room_topic(room)
+                topics[Direction.write(topic_room)] = Direction.write(topic_mac)
+                topics[Direction.read(topic_mac)] = Direction.read(topic_room)
+            for heating_valve in room.heating_valves:
+                topic_mac = heating_valve.get_mac_topic()
+                topic_room = heating_valve.get_room_topic(room)
+                topics[Direction.write(topic_room)] = Direction.write(topic_mac)
+                topics[Direction.read(topic_mac)] = Direction.read(topic_room)
         return topics
 
 def get_devices():
@@ -383,8 +434,9 @@ def get_rooms():
     rooms = []
     rooms.append(Room(
         name = RoomName.k000,
-        lights = [Light(DeviceName.k001, 1, 1), Light(DeviceName.k001, 1, 2)],
+        lights = [Light(DeviceName.k001, 1, 1), RelayLight(DeviceName.k001, 10, 2, "Garderoba")],
         rollers = [Roller(DeviceName.k001, 1)],
+        heating_valves = [HeatingValve(DeviceName.k001, 3, "RAZ7", "Garderoba"), HeatingValve(DeviceName.k001, 1, "RAZ6", "Kod WC-a")],
         sensors = [
             LightSensor(DeviceName.k001, BoardName.s1),
             Co2Sensor(DeviceName.k001, BoardName.s1),
@@ -398,8 +450,9 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k001,
-        lights = [Light(DeviceName.k001, 2, 1)],
+        lights = [Light(DeviceName.k001, 1, 2, 1)],
         rollers = [Roller(DeviceName.k001, 2)],
+        heating_valves = [HeatingValve(DeviceName.k001, 4, "RAZ5", "Jug")],
         sensors = [
             LightSensor(DeviceName.k001, BoardName.s2),
             Co2Sensor(DeviceName.k001, BoardName.s2),
@@ -427,12 +480,13 @@ def get_rooms():
         name = RoomName.k006))
 
     rooms.append(Room(
-        name = RoomName.k007,
-        lights = [RelayLight(DeviceName.k007, 1, 1)]))
+        name = RoomName.k007))
 
     rooms.append(Room(
         name = RoomName.k008,
-        lights = [RelayLight(DeviceName.k007, 2, 1)]))
+        lights = [RelayLight(DeviceName.k007, 1, 1), RelayLight(DeviceName.k007, 2, 1, "Odmor")],
+        heating_valves = [HeatingValve(DeviceName.k007, 6, "RAZ10", "Sredina"), HeatingValve(DeviceName.k007, 7, "RAZ11", "Sjever")]
+        ))
 
     rooms.append(Room(
         name = RoomName.k009,
@@ -452,6 +506,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k010,
         lights = [Light(DeviceName.k010, 1, 1), Light(DeviceName.k010, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k010, 4, "RAZ4")],
         rollers = [Roller(DeviceName.k010, 1)],
         sensors = [
             LightSensor(DeviceName.k010, BoardName.s1),
@@ -482,6 +537,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k012,
         lights = [Light(DeviceName.k014, 2, 1)],
+        heating_valves = [HeatingValve(DeviceName.k014, 4, "RAZ3")],
         rollers = [Roller(DeviceName.k014, 2)],
         sensors = [
             LightSensor(DeviceName.k014, BoardName.s2),
@@ -497,6 +553,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k013,
         lights = [Light(DeviceName.k015, 2, 1)],
+        heating_valves = [HeatingValve(DeviceName.k015, 4, "RAZ9")],
         rollers = [Roller(DeviceName.k015, 2)],
         sensors = [
             LightSensor(DeviceName.k015, BoardName.s2),
@@ -544,6 +601,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k016,
         lights = [Light(DeviceName.k016, 1, 1), Light(DeviceName.k016, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k016, 4, "RAZ2")],
         rollers = [Roller(DeviceName.k016, 1)],
         sensors = [
             LightSensor(DeviceName.k016, BoardName.s1),
@@ -562,6 +620,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k018,
         lights = [Light(DeviceName.k016, 2, 1)],
+        heating_valves = [HeatingValve(DeviceName.k019, 4, "RAZ1")],
         rollers = [Roller(DeviceName.k016, 2)],
         sensors = [
             LightSensor(DeviceName.k016, BoardName.s2),
@@ -595,6 +654,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k100,
         lights = [Light(DeviceName.k101b, 1, 1)],
+        heating_valves = [HeatingValve(DeviceName.k109, 4, "RAZ29")],
         rollers = [Roller(DeviceName.k101b, 1)],
         sensors = [
             LightSensor(DeviceName.k101b, BoardName.s1),
@@ -610,6 +670,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k101,
         lights = [Light(DeviceName.k101a, 1, 1), Light(DeviceName.k101a, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k101b, 4, "RAZ32")],
         rollers = [Roller(DeviceName.k101a, 1)],
         sensors = [
             LightSensor(DeviceName.k101a, BoardName.s1),
@@ -625,6 +686,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k102,
         lights = [Light(DeviceName.k101b, 2, 1)],
+        heating_valves = [HeatingValve(DeviceName.k101b, 4, "RAZ31")], #?
         rollers = [Roller(DeviceName.k101b, 2)],
         sensors = [
             LightSensor(DeviceName.k101b, BoardName.s2),
@@ -644,7 +706,9 @@ def get_rooms():
         name = RoomName.k104))
 
     rooms.append(Room(
-        name = RoomName.k105))
+        name = RoomName.k105,
+        heating_valves = [HeatingValve(DeviceName.k101a, 4, "RAZ30")], #?
+        ))
 
     rooms.append(Room(
         name = RoomName.k106))
@@ -670,6 +734,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k109,
         lights = [Light(DeviceName.k109, 1, 1), Light(DeviceName.k109, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k111, 4, "RAZ35")],
         rollers = [Roller(DeviceName.k109, 1)],
         sensors = [
             LightSensor(DeviceName.k109, BoardName.s1),
@@ -685,6 +750,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k110,
         lights = [Light(DeviceName.k110, 1, 1), Light(DeviceName.k110, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k110, 4, "RAZ36")],
         rollers = [Roller(DeviceName.k110, 1)],
         sensors = [
             LightSensor(DeviceName.k110, BoardName.s1),
@@ -700,6 +766,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k111,
         lights = [Light(DeviceName.k111, 1, 1), Light(DeviceName.k111, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k109, 4, "RAZ28")],
         rollers = [Roller(DeviceName.k111, 1)],
         sensors = [
             LightSensor(DeviceName.k111, BoardName.s1),
@@ -715,6 +782,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k112,
         lights = [Light(DeviceName.k111, 2, 1)],
+        heating_valves = [HeatingValve(DeviceName.k113, 4, "RAZ27")],
         rollers = [Roller(DeviceName.k111, 2)],
         sensors = [
             LightSensor(DeviceName.k111, BoardName.s2),
@@ -745,6 +813,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k114,
         lights = [Light(DeviceName.k114, 1, 1), Light(DeviceName.k114, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k114, 4, "RAZ26")],
         rollers = [Roller(DeviceName.k114, 1)],
         sensors = [
             LightSensor(DeviceName.k114, BoardName.s1),
@@ -790,6 +859,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k117,
         lights = [Light(DeviceName.k117, 1, 1), Light(DeviceName.k117, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k117, 4, "RAZ37")],
         rollers = [Roller(DeviceName.k117, 1)],
         sensors = [
             LightSensor(DeviceName.k117, BoardName.s1),
@@ -820,6 +890,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k119,
         lights = [Light(DeviceName.k119, 1, 1), Light(DeviceName.k119, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k119, 4, "RAZ25")],
         rollers = [Roller(DeviceName.k119, 1)],
         sensors = [
             LightSensor(DeviceName.k119, BoardName.s1),
@@ -849,20 +920,21 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k121,
-        lights = [RelayLight(DeviceName.k101b, 9, 1)]))
+        lights = [RelayLight(DeviceName.k101b, 9, 1)],
+        heating_valves = [HeatingValve(DeviceName.k117, 4, "RAZ33")], #?
+        ))
 
     rooms.append(Room(
         name = RoomName.k122,
-        lights = [Light(DeviceName.k101b, 1, 2, 1)]))
+        lights = [Light(DeviceName.k101b, 1, 2, 1)],
+        heating_valves = [HeatingValve(DeviceName.k116, 4, "RAZ34")], #?
+        ))
     
     rooms.append(Room(
         name = RoomName.k123))
 
     rooms.append(Room(
-        name = RoomName.k124))
-
-    rooms.append(Room(
-        name = RoomName.k125,
+        name = RoomName.k124,
         lights = [Light(DeviceName.k101a, 2, 1)],
         rollers = [Roller(DeviceName.k101a, 2)],
         sensors = [
@@ -903,6 +975,7 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k208,
         lights = [Light(DeviceName.k208, 1, 1), Light(DeviceName.k208, 1, 2)],
+        heating_valves = [HeatingValve(DeviceName.k208, 4, "RAZ53"), HeatingValve(DeviceName.k208, 4, "RAZ51")],
         rollers = [Roller(DeviceName.k208, 1)],
         sensors = [
             LightSensor(DeviceName.k208, BoardName.s1),
@@ -916,12 +989,14 @@ def get_rooms():
             ]))
 
     rooms.append(Room(
-        name = RoomName.k209, #k225? koji je hodnik koji
-        lights = [RelayLight(DeviceName.k211a, 12, 1)]))
+        name = RoomName.k209,
+        lights = [Light(DeviceName.k211a, 1, 2, 1)],
+        heating_valves= [HeatingValve(DeviceName.k211a, 4, "RAZ50", "jug"), HeatingValve(DeviceName.k218a, 4, "RAZ49", "sredina"), HeatingValve(DeviceName.k218b, 4, "RAZ48", "sjever")] #?
+        ))
 
     rooms.append(Room(
         name = RoomName.k210,
-        lights = [Light(DeviceName.k211a, 1, 1), Light(DeviceName.k211a, 1, 2)],
+        lights = [Light(DeviceName.k211a, 2, 1)],
         rollers = [Roller(DeviceName.k211a, 1)],
         sensors = [
             LightSensor(DeviceName.k211a, BoardName.s1),
@@ -936,7 +1011,7 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k211,
-        lights = [Light(DeviceName.k211a, 2, 1)],
+        lights = [Light(DeviceName.k211a, 1, 1)],
         rollers = [Roller(DeviceName.k211a, 2)],
         sensors = [
             LightSensor(DeviceName.k211a, BoardName.s2),
@@ -951,7 +1026,7 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k212,
-        lights = [Light(DeviceName.k211b, 1, 1), Light(DeviceName.k211b, 1, 2)],
+        lights = [Light(DeviceName.k211b, 1, 1)],
         rollers = [Roller(DeviceName.k211b, 1)],
         sensors = [
             LightSensor(DeviceName.k211b, BoardName.s1),
@@ -966,7 +1041,7 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k213,
-        lights = [Light(DeviceName.k211c, 1, 1), Light(DeviceName.k211c, 1, 2)],
+        lights = [Light(DeviceName.k211c, 1, 1)],
         rollers = [Roller(DeviceName.k211c, 1)],
         sensors = [
             LightSensor(DeviceName.k211c, BoardName.s1),
@@ -996,7 +1071,7 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k215,
-        lights = [Light(DeviceName.k218b, 1, 1), Light(DeviceName.k218b, 1, 2)],
+        lights = [Light(DeviceName.k218b, 1, 1)],
         rollers = [Roller(DeviceName.k218b, 1)],
         sensors = [
             LightSensor(DeviceName.k218b, BoardName.s1),
@@ -1026,22 +1101,22 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k217,
-        lights = [Light(DeviceName.tmp, 1, 1), Light(DeviceName.tmp, 1, 2)],
-        rollers = [Roller(DeviceName.tmp, 1)],
+        lights = [Light(DeviceName.k218b, 1, 1)],
+        rollers = [Roller(DeviceName.k218b, 1)],
         sensors = [
-            LightSensor(DeviceName.tmp, BoardName.s1),
-            Co2Sensor(DeviceName.tmp, BoardName.s1),
-            TemperatureSensor(DeviceName.tmp, BoardName.s1),
-            PressureSensor(DeviceName.tmp, BoardName.s1),
-            HumiditySensor(DeviceName.tmp, BoardName.s1),
-            GasSensor(DeviceName.tmp, BoardName.s1),
-            AltitudeSensor(DeviceName.tmp, BoardName.s1),
-                RadarSensor(DeviceName.tmp, BoardName.s1)
+            LightSensor(DeviceName.k218b, BoardName.s1),
+            Co2Sensor(DeviceName.k218b, BoardName.s1),
+            TemperatureSensor(DeviceName.k218b, BoardName.s1),
+            PressureSensor(DeviceName.k218b, BoardName.s1),
+            HumiditySensor(DeviceName.k218b, BoardName.s1),
+            GasSensor(DeviceName.k218b, BoardName.s1),
+            AltitudeSensor(DeviceName.k218b, BoardName.s1),
+                RadarSensor(DeviceName.k218b, BoardName.s1)
             ]))
 
     rooms.append(Room(
         name = RoomName.k218,
-        lights = [Light(DeviceName.k218c, 1, 1), Light(DeviceName.k218c, 1, 2)],
+        lights = [Light(DeviceName.k218c, 1, 1)],
         rollers = [Roller(DeviceName.k218c, 1)],
         sensors = [
             LightSensor(DeviceName.k218c, BoardName.s1),
@@ -1086,7 +1161,7 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k221,
-        lights = [Light(DeviceName.k218a, 1, 1), Light(DeviceName.k218a, 1, 2)],
+        lights = [Light(DeviceName.k218a, 1, 1)],
         rollers = [Roller(DeviceName.k218a, 1)],
         sensors = [
             LightSensor(DeviceName.k218a, BoardName.s1),
@@ -1106,10 +1181,16 @@ def get_rooms():
         name = RoomName.k223))
 
     rooms.append(Room(
-        name = RoomName.k225))
+        name = RoomName.k225,
+        lights=[RelayLight(DeviceName.k211a, 12, 1)])) # test relay-a hodnik
 
     rooms.append(Room(
         name = RoomName.k226))
+
+    rooms.append(Room(
+        name = RoomName.d000,
+        lights = [RelayLight(DeviceName.k001, 12, 1, "Ulična rasvjeta")],
+        ac_sockets = [AcSocket(DeviceName.k001, 13, 1)]))
 
     return rooms
 
