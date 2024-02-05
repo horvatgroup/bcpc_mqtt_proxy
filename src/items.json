@@ -1,0 +1,2602 @@
+{
+  "bcpc": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "itemType": "Group",
+      "label": "BCPC"
+    }
+  },
+  "d000": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "outdoor",
+      "groupNames": [
+        "d0"
+      ],
+      "itemType": "Group",
+      "label": "D0-00 Dvori\u0161te",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "d000_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "d000",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "D0-00 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "dvoriste": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "bcpc"
+      ],
+      "itemType": "Group",
+      "label": "Dvori\u0161te",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "glights": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Switch",
+      "category": "lightbulb",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "Svjetla",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "gpodno_k0": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Switch",
+      "category": "heating",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0 Podno grijanje",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "gpodno_k1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Switch",
+      "category": "heating",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1 Podno grijanje",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "gpodno_k2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Switch",
+      "category": "heating",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2 Podno grijanje",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k0": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "groundfloor",
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "K0 Prizemlje",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k000": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-00 Ulazni prostor",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k000_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k000",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-00 Podno 1 (Garderoba)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k000_heating_valve_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k000",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-00 Podno 2 (Kod WC-a)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k000_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k000",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-00 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k000_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k000",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-00 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k001": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-01 Ulazni hal",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k001_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k001",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-01 Podno (Jug)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k001_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k001",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-01 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k002": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-02 WC - invalid",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k003": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-03 WC - \u017eenski",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k004": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-04 WC - zaposlenici",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k005": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-05 WC - mu\u0161ki",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k006": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "maintanance",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-06 CUSR",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k007": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "maintanance",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-07 Elektro - soba",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k008": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-08 Hodnik",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k008_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k008",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-08 Podno 1 (Sredina)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k008_heating_valve_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k008",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-08 Podno 2 (Sjever)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k008_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k008",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-08 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k008_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k008",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-08 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k009": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-09 Biologija",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k009_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k009",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-09 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k009_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k009",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-09 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k010": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-10 Informatika",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k010_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k010",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-10 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k010_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k010",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-10 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k010_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k010",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-10 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k011": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-11 Kabinet Kem/Bio",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k011_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k011",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-11 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k012": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-12 Kabinet Informatika/Mat",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k012_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k012",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-12 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k012_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k012",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-12 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k013": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-13 Kabinet laboratorij",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k013_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k013",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-13 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k013_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k013",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-13 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k014": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-14 Matematika",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k014_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k014",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-14 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k014_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k014",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-14 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k015": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-15 Kemija",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k015_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k015",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-15 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k015_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k015",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-15 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k016": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-16 Fizika",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k016_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k016",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-16 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k016_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k016",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-16 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k016_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k016",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-16 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k017": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "maintanance",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-17 Strojarnica",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k018": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-18 Kabinet fizika",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k018_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k018",
+        "gpodno_k0"
+      ],
+      "itemType": "Switch",
+      "label": "K0-18 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k018_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k018",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-18 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k019": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-19 Multimedijska dvorana",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k019_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k019",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-19 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k019_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k019",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K0-19 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k020": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k0"
+      ],
+      "itemType": "Group",
+      "label": "K0-20 Stubi\u0161te",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "firstfloor",
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "K1 Prvi kat",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k100": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-00 Stubi\u0161ni hal",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k100_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k100",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-00 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k100_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k100",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-00 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k101": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-01 Knji\u017enica",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k101_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k101",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-01 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k101_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k101",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-01 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k101_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k101",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-01 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k102": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-02 Kabinet knji\u017enice",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k102_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k102",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-02 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k102_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k102",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-02 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k103": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-03 WC - \u017eenski",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k104": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-04 WC - zaposlenici",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k105": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-05 WC - mu\u0161ki",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k105_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k105",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-05 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k106": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-06 WC - invalid",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k107": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "maintanance",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-07 Spremi\u0161te",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k108": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-08 Kabinet Umjetnost/Vjeronauk",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k108_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k108",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-08 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k109": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-09 Hrvatski 1",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k109_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k109",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-09 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k109_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k109",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-09 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k109_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k109",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-09 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k110": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-10 Umjetnost/Vjeronauk",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k110_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k110",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-10 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k110_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k110",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-10 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k110_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k110",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-10 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k111": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-11 Hrvatski 2",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k111_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k111",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-11 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k111_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k111",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-11 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k111_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k111",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-11 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k112": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-12 Kabinet Hrvatski",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k112_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k112",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-12 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k112_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k112",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-12 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k113": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-13 Dru\u0161tvo",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k113_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k113",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-13 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k113_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k113",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-13 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k114": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-14 Geografija",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k114_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k114",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-14 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k114_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k114",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-14 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k114_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k114",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-14 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k115": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-15 Kabinet Geo / Pov",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k115_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k115",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-15 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k116": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-16 Povijest",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k116_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k116",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-16 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k116_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k116",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-16 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k117": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-17 Jezici 2",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k117_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k117",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-17 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k117_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k117",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-17 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k117_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k117",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-17 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k118": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroomoffice",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-18 Kabinet jezici",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k118_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k118",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-18 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k119": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-19 Jezici 1",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k119_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k119",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-19 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k119_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k119",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-19 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k119_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k119",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-19 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k120": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "maintanance",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-20 \u010cista\u010dice",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k120_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k120",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-20 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k121": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-21 Prostor za odmor",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k121_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k121",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-21 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k121_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k121",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-21 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k122": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-22 Hodnik",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k122_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k122",
+        "gpodno_k1"
+      ],
+      "itemType": "Switch",
+      "label": "K1-22 Podno",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k122_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k122",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-22 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k123": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-23 Stubi\u0161te",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k124": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k1"
+      ],
+      "itemType": "Group",
+      "label": "K1-24 Kapelica",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k124_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k124",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K1-24 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "attic",
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "K2 Drugi kat",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k200": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-00 Stubi\u0161ni hal",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k201": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-01 Predprostor zbornice",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k202": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "kitchen",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-02 \u010cajna kuhinja",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k203": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-03 Predprostor WC",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k204": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-04 WC - \u017eenski",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k205": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-05 WC - mu\u0161ki",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k206": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-06 WC - invalid",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k207": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "maintanance",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-07 Spremi\u0161te",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k208": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-08 Zbornica",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k208_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k208",
+        "gpodno_k2"
+      ],
+      "itemType": "Switch",
+      "label": "K2-08 Podno 1",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k208_heating_valve_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k208",
+        "gpodno_k2"
+      ],
+      "itemType": "Switch",
+      "label": "K2-08 Podno 2",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k208_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k208",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-08 Svjetlo 1",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k208_light_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k208",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-08 Svjetlo 2",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k209": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-09 Hodnik",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k209_heating_valve_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k209",
+        "gpodno_k2"
+      ],
+      "itemType": "Switch",
+      "label": "K2-09 Podno 1 (jug)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k209_heating_valve_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k209",
+        "gpodno_k2"
+      ],
+      "itemType": "Switch",
+      "label": "K2-09 Podno 2 (sredina)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k209_heating_valve_3": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "heating",
+      "groupNames": [
+        "k209",
+        "gpodno_k2"
+      ],
+      "itemType": "Switch",
+      "label": "K2-09 Podno 3 (sjever)",
+      "tags": [
+        "RadiatorControl"
+      ]
+    }
+  },
+  "k209_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k209",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-09 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k210": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-10 Jezici 3",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k210_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k210",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-10 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k211": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "classroom",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-11 Izborni predmet",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k211_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k211",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-11 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k212": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-12 Primanje roditelja",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k212_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k212",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-12 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k213": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-13 Referada",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k213_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k213",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-13 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k214": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-14 Admin/ra\u010dunovodstvo",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k214_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k214",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-14 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k215": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-15 Spremi\u0161te/Arhiv",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k215_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k215",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-15 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k216": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-16 Tajnik",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k216_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k216",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-16 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k217": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-17 Satni\u010dar",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k217_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k217",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-17 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k218": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-18 Dr\u017eavna matura",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k218_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k218",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-18 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k219": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-19 Pedagog/defektolog",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k219_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k219",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-19 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k220": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-20 Prostor za sastanke",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k220_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k220",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-20 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k221": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "office",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-21 Ravnatelj",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k221_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k221",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-21 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k222": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "wc",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-22 WC - uredi",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k223": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "kitchen",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-23 \u010cajna kuhinja ravnatelj",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k225": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-25 Hodnik",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "k225_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k225",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-25 Svjetlo",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k226": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "corridor",
+      "groupNames": [
+        "k2"
+      ],
+      "itemType": "Group",
+      "label": "K2-26 Stubi\u0161te",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "pastoralni": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "bcpc"
+      ],
+      "itemType": "Group",
+      "label": "Pastoralni centar",
+      "tags": [
+        "Location"
+      ]
+    }
+  },
+  "skola": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "bcpc"
+      ],
+      "itemType": "Group",
+      "label": "\u0160kola",
+      "tags": [
+        "Location"
+      ]
+    }
+  }
+}

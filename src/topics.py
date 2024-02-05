@@ -387,6 +387,8 @@ class Room:
             self.ventilations = []
         if self.ac_sockets is None:
             self.ac_sockets = []
+        if self.heating_valves is None:
+            self.heating_valves = []
 
     def generate_topics(self):
         topics = {}
