@@ -48,6 +48,48 @@
       ]
     }
   },
+  "galarms": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Switch",
+      "category": "alarm",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "CO2 Alarm",
+      "tags": [
+        "Alarm",
+        "CO2"
+      ]
+    }
+  },
+  "gheartbeats": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Number",
+      "category": "qualityofservice",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "Heartbeat",
+      "tags": [
+        "Duration",
+        "Point"
+      ]
+    }
+  },
   "glights": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -128,6 +170,86 @@
       ]
     }
   },
+  "grollers": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Rollershutter",
+      "category": "rollershutter",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "Sva sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "grollersE": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Rollershutter",
+      "category": "rollershutter",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "Sjenila istok",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "grollersS": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Rollershutter",
+      "category": "rollershutter",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "Sjenila jug",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "grollersW": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "baseItemType": "Rollershutter",
+      "category": "rollershutter",
+      "functionName": "OR",
+      "functionParams": [
+        "ON",
+        "OFF"
+      ],
+      "groupNames": [
+        "skola"
+      ],
+      "itemType": "Group",
+      "label": "Sjenila zapad",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
   "k0": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -153,6 +275,21 @@
       "label": "K0-00 Ulazni prostor",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k000_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k000",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-00 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -216,6 +353,141 @@
       ]
     }
   },
+  "k000_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k000",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-00 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k000_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Number",
+      "label": "K0-00 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k000_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Number",
+      "label": "K0-00 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k000_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Number",
+      "label": "K0-00 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k000_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Number",
+      "label": "K0-00 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k000_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Number",
+      "label": "K0-00 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k000_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Number",
+      "label": "K0-00 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k000_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Switch",
+      "label": "K0-00 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k000_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k000"
+      ],
+      "itemType": "Number",
+      "label": "K0-00 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k001": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -227,6 +499,36 @@
       "label": "K0-01 Ulazni hal",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k001_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k001",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-01 CO2 Alarm",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k001_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -260,6 +562,125 @@
       ]
     }
   },
+  "k001_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k001_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k001_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k001_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k001_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k001_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k001_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Switch",
+      "label": "K0-01 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k001_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k001"
+      ],
+      "itemType": "Number",
+      "label": "K0-01 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k002": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -285,6 +706,125 @@
       "label": "K0-03 WC - \u017eenski",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k003_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Number",
+      "label": "K0-03 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k003_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Number",
+      "label": "K0-03 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k003_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Number",
+      "label": "K0-03 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k003_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Number",
+      "label": "K0-03 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k003_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Number",
+      "label": "K0-03 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k003_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Number",
+      "label": "K0-03 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k003_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Switch",
+      "label": "K0-03 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k003_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k003"
+      ],
+      "itemType": "Number",
+      "label": "K0-03 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
       ]
     }
   },
@@ -341,6 +881,21 @@
       "label": "K0-07 Elektro - soba",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k007_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-07 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -432,6 +987,36 @@
       ]
     }
   },
+  "k009_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k009",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-09 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k009_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
   "k009_light_1": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -462,6 +1047,141 @@
       ]
     }
   },
+  "k009_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k009",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-09 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k009_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k009_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k009_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k009_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k009_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k009_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k009_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Switch",
+      "label": "K0-09 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k009_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k009"
+      ],
+      "itemType": "Number",
+      "label": "K0-09 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k010": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -473,6 +1193,36 @@
       "label": "K0-10 Informatika",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k010_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k010",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-10 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k010_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -521,6 +1271,141 @@
       ]
     }
   },
+  "k010_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k010",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-10 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k010_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k010_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k010_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k010_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k010_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k010_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k010_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Switch",
+      "label": "K0-10 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k010_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k010"
+      ],
+      "itemType": "Number",
+      "label": "K0-10 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k011": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -532,6 +1417,21 @@
       "label": "K0-11 Kabinet Kem/Bio",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k011_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k011",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-11 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -550,6 +1450,141 @@
       ]
     }
   },
+  "k011_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k011",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-11 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k011_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Number",
+      "label": "K0-11 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k011_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Number",
+      "label": "K0-11 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k011_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Number",
+      "label": "K0-11 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k011_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Number",
+      "label": "K0-11 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k011_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Number",
+      "label": "K0-11 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k011_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Number",
+      "label": "K0-11 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k011_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Switch",
+      "label": "K0-11 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k011_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k011"
+      ],
+      "itemType": "Number",
+      "label": "K0-11 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k012": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -561,6 +1596,21 @@
       "label": "K0-12 Kabinet Informatika/Mat",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k012_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k012",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-12 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -594,6 +1644,141 @@
       ]
     }
   },
+  "k012_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k012",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-12 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k012_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Number",
+      "label": "K0-12 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k012_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Number",
+      "label": "K0-12 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k012_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Number",
+      "label": "K0-12 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k012_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Number",
+      "label": "K0-12 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k012_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Number",
+      "label": "K0-12 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k012_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Number",
+      "label": "K0-12 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k012_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Switch",
+      "label": "K0-12 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k012_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k012"
+      ],
+      "itemType": "Number",
+      "label": "K0-12 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k013": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -605,6 +1790,21 @@
       "label": "K0-13 Kabinet laboratorij",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k013_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k013",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-13 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -638,6 +1838,141 @@
       ]
     }
   },
+  "k013_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k013",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-13 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k013_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Number",
+      "label": "K0-13 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k013_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Number",
+      "label": "K0-13 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k013_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Number",
+      "label": "K0-13 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k013_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Number",
+      "label": "K0-13 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k013_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Number",
+      "label": "K0-13 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k013_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Number",
+      "label": "K0-13 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k013_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Switch",
+      "label": "K0-13 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k013_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k013"
+      ],
+      "itemType": "Number",
+      "label": "K0-13 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k014": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -649,6 +1984,36 @@
       "label": "K0-14 Matematika",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k014_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k014",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-14 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k014_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -682,6 +2047,141 @@
       ]
     }
   },
+  "k014_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k014",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-14 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k014_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k014_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k014_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k014_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k014_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k014_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k014_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Switch",
+      "label": "K0-14 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k014_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k014"
+      ],
+      "itemType": "Number",
+      "label": "K0-14 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k015": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -693,6 +2193,36 @@
       "label": "K0-15 Kemija",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k015_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k015",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-15 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k015_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -726,6 +2256,141 @@
       ]
     }
   },
+  "k015_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k015",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-15 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k015_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k015_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k015_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k015_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k015_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k015_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k015_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Switch",
+      "label": "K0-15 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k015_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k015"
+      ],
+      "itemType": "Number",
+      "label": "K0-15 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k016": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -737,6 +2402,36 @@
       "label": "K0-16 Fizika",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k016_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k016",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-16 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k016_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -785,6 +2480,141 @@
       ]
     }
   },
+  "k016_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k016",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-16 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k016_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k016_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k016_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k016_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k016_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k016_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k016_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Switch",
+      "label": "K0-16 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k016_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k016"
+      ],
+      "itemType": "Number",
+      "label": "K0-16 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k017": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -810,6 +2640,21 @@
       "label": "K0-18 Kabinet fizika",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k018_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k018",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-18 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -843,6 +2688,141 @@
       ]
     }
   },
+  "k018_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k018",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-18 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k018_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Number",
+      "label": "K0-18 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k018_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Number",
+      "label": "K0-18 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k018_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Number",
+      "label": "K0-18 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k018_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Number",
+      "label": "K0-18 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k018_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Number",
+      "label": "K0-18 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k018_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Number",
+      "label": "K0-18 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k018_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Switch",
+      "label": "K0-18 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k018_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k018"
+      ],
+      "itemType": "Number",
+      "label": "K0-18 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k019": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -854,6 +2834,36 @@
       "label": "K0-19 Multimedijska dvorana",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k019_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k019",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K0-19 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k019_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -884,6 +2894,141 @@
       "label": "K0-19 Svjetlo 2",
       "tags": [
         "Lightbulb"
+      ]
+    }
+  },
+  "k019_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k019",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K0-19 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k019_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k019_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k019_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k019_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k019_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k019_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k019_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Switch",
+      "label": "K0-19 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k019_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k019"
+      ],
+      "itemType": "Number",
+      "label": "K0-19 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
       ]
     }
   },
@@ -929,6 +3074,21 @@
       ]
     }
   },
+  "k100_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k100",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-00 CO2 Alarm",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
   "k100_heating_valve_1": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -959,6 +3119,125 @@
       ]
     }
   },
+  "k100_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Number",
+      "label": "K1-00 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k100_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Number",
+      "label": "K1-00 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k100_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Number",
+      "label": "K1-00 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k100_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Number",
+      "label": "K1-00 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k100_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Number",
+      "label": "K1-00 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k100_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Number",
+      "label": "K1-00 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k100_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Switch",
+      "label": "K1-00 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k100_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k100"
+      ],
+      "itemType": "Number",
+      "label": "K1-00 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k101": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -970,6 +3249,21 @@
       "label": "K1-01 Knji\u017enica",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k101_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k101",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-01 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -1018,6 +3312,171 @@
       ]
     }
   },
+  "k101_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k101",
+        "grollers",
+        "grollersS"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-01 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k101_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Number",
+      "label": "K1-01 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k101_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Number",
+      "label": "K1-01 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k101_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Number",
+      "label": "K1-01 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k101_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Number",
+      "label": "K1-01 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k101_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Number",
+      "label": "K1-01 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k101_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Number",
+      "label": "K1-01 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k101_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Switch",
+      "label": "K1-01 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k101_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k101"
+      ],
+      "itemType": "Number",
+      "label": "K1-01 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
+  "k101a_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-01A Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
+  "k101b_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-01B Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
   "k102": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1029,6 +3488,21 @@
       "label": "K1-02 Kabinet knji\u017enice",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k102_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k102",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-02 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -1059,6 +3533,141 @@
       "label": "K1-02 Svjetlo",
       "tags": [
         "Lightbulb"
+      ]
+    }
+  },
+  "k102_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k102",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-02 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k102_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Number",
+      "label": "K1-02 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k102_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Number",
+      "label": "K1-02 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k102_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Number",
+      "label": "K1-02 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k102_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Number",
+      "label": "K1-02 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k102_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Number",
+      "label": "K1-02 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k102_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Number",
+      "label": "K1-02 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k102_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Switch",
+      "label": "K1-02 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k102_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k102"
+      ],
+      "itemType": "Number",
+      "label": "K1-02 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
       ]
     }
   },
@@ -1161,6 +3770,21 @@
       ]
     }
   },
+  "k108_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k108",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-08 CO2 Alarm",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
   "k108_light_1": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1176,6 +3800,141 @@
       ]
     }
   },
+  "k108_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k108",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-08 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k108_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Number",
+      "label": "K1-08 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k108_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Number",
+      "label": "K1-08 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k108_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Number",
+      "label": "K1-08 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k108_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Number",
+      "label": "K1-08 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k108_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Number",
+      "label": "K1-08 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k108_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Number",
+      "label": "K1-08 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k108_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Switch",
+      "label": "K1-08 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k108_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k108"
+      ],
+      "itemType": "Number",
+      "label": "K1-08 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k109": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1187,6 +3946,36 @@
       "label": "K1-09 Hrvatski 1",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k109_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k109",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-09 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k109_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1235,6 +4024,141 @@
       ]
     }
   },
+  "k109_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k109",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-09 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k109_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k109_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k109_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k109_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k109_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k109_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k109_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Switch",
+      "label": "K1-09 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k109_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k109"
+      ],
+      "itemType": "Number",
+      "label": "K1-09 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k110": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1246,6 +4170,36 @@
       "label": "K1-10 Umjetnost/Vjeronauk",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k110_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k110",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-10 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k110_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1294,6 +4248,141 @@
       ]
     }
   },
+  "k110_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k110",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-10 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k110_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k110_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k110_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k110_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k110_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k110_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k110_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Switch",
+      "label": "K1-10 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k110_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k110"
+      ],
+      "itemType": "Number",
+      "label": "K1-10 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k111": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1305,6 +4394,36 @@
       "label": "K1-11 Hrvatski 2",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k111_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k111",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-11 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k111_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1353,6 +4472,141 @@
       ]
     }
   },
+  "k111_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k111",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-11 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k111_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k111_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k111_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k111_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k111_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k111_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k111_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Switch",
+      "label": "K1-11 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k111_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k111"
+      ],
+      "itemType": "Number",
+      "label": "K1-11 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k112": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1364,6 +4618,21 @@
       "label": "K1-12 Kabinet Hrvatski",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k112_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k112",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-12 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -1397,6 +4666,141 @@
       ]
     }
   },
+  "k112_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k112",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-12 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k112_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Number",
+      "label": "K1-12 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k112_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Number",
+      "label": "K1-12 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k112_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Number",
+      "label": "K1-12 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k112_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Number",
+      "label": "K1-12 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k112_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Number",
+      "label": "K1-12 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k112_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Number",
+      "label": "K1-12 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k112_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Switch",
+      "label": "K1-12 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k112_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k112"
+      ],
+      "itemType": "Number",
+      "label": "K1-12 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k113": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1408,6 +4812,36 @@
       "label": "K1-13 Dru\u0161tvo",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k113_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k113",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-13 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k113_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1441,6 +4875,141 @@
       ]
     }
   },
+  "k113_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k113",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-13 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k113_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k113_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k113_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k113_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k113_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k113_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k113_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Switch",
+      "label": "K1-13 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k113_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k113"
+      ],
+      "itemType": "Number",
+      "label": "K1-13 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k114": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1452,6 +5021,36 @@
       "label": "K1-14 Geografija",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k114_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k114",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-14 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k114_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1500,6 +5099,141 @@
       ]
     }
   },
+  "k114_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k114",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-14 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k114_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k114_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k114_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k114_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k114_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k114_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k114_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Switch",
+      "label": "K1-14 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k114_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k114"
+      ],
+      "itemType": "Number",
+      "label": "K1-14 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k115": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1511,6 +5245,21 @@
       "label": "K1-15 Kabinet Geo / Pov",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k115_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k115",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-15 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -1529,6 +5278,141 @@
       ]
     }
   },
+  "k115_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k115",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-15 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k115_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Number",
+      "label": "K1-15 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k115_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Number",
+      "label": "K1-15 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k115_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Number",
+      "label": "K1-15 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k115_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Number",
+      "label": "K1-15 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k115_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Number",
+      "label": "K1-15 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k115_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Number",
+      "label": "K1-15 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k115_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Switch",
+      "label": "K1-15 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k115_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k115"
+      ],
+      "itemType": "Number",
+      "label": "K1-15 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k116": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1540,6 +5424,36 @@
       "label": "K1-16 Povijest",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k116_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k116",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-16 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k116_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1573,6 +5487,141 @@
       ]
     }
   },
+  "k116_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k116",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-16 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k116_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k116_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k116_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k116_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k116_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k116_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k116_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Switch",
+      "label": "K1-16 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k116_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k116"
+      ],
+      "itemType": "Number",
+      "label": "K1-16 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k117": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1584,6 +5633,36 @@
       "label": "K1-17 Jezici 2",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k117_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k117",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-17 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k117_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1632,6 +5711,141 @@
       ]
     }
   },
+  "k117_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k117",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-17 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k117_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k117_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k117_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k117_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k117_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k117_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k117_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Switch",
+      "label": "K1-17 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k117_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k117"
+      ],
+      "itemType": "Number",
+      "label": "K1-17 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k118": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1643,6 +5857,21 @@
       "label": "K1-18 Kabinet jezici",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k118_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k118",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-18 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -1661,6 +5890,141 @@
       ]
     }
   },
+  "k118_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k118",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-18 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k118_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Number",
+      "label": "K1-18 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k118_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Number",
+      "label": "K1-18 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k118_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Number",
+      "label": "K1-18 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k118_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Number",
+      "label": "K1-18 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k118_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Number",
+      "label": "K1-18 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k118_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Number",
+      "label": "K1-18 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k118_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Switch",
+      "label": "K1-18 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k118_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k118"
+      ],
+      "itemType": "Number",
+      "label": "K1-18 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k119": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1672,6 +6036,36 @@
       "label": "K1-19 Jezici 1",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k119_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k119",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-19 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k119_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
       ]
     }
   },
@@ -1720,6 +6114,141 @@
       ]
     }
   },
+  "k119_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k119",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-19 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k119_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k119_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k119_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k119_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k119_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k119_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k119_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Switch",
+      "label": "K1-19 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k119_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k119"
+      ],
+      "itemType": "Number",
+      "label": "K1-19 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k120": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1731,6 +6260,21 @@
       "label": "K1-20 \u010cista\u010dice",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k120_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k120",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-20 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -1746,6 +6290,141 @@
       "label": "K1-20 Svjetlo",
       "tags": [
         "Lightbulb"
+      ]
+    }
+  },
+  "k120_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k120",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-20 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k120_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Number",
+      "label": "K1-20 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k120_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Number",
+      "label": "K1-20 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k120_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Number",
+      "label": "K1-20 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k120_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Number",
+      "label": "K1-20 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k120_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Number",
+      "label": "K1-20 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k120_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Number",
+      "label": "K1-20 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k120_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Switch",
+      "label": "K1-20 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k120_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k120"
+      ],
+      "itemType": "Number",
+      "label": "K1-20 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
       ]
     }
   },
@@ -1865,6 +6544,21 @@
       ]
     }
   },
+  "k124_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k124",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K1-24 CO2 Alarm",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
   "k124_light_1": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -1877,6 +6571,141 @@
       "label": "K1-24 Svjetlo",
       "tags": [
         "Lightbulb"
+      ]
+    }
+  },
+  "k124_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k124",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K1-24 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k124_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Number",
+      "label": "K1-24 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k124_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Number",
+      "label": "K1-24 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k124_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Number",
+      "label": "K1-24 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k124_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Number",
+      "label": "K1-24 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k124_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Number",
+      "label": "K1-24 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k124_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Number",
+      "label": "K1-24 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k124_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Switch",
+      "label": "K1-24 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k124_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k124"
+      ],
+      "itemType": "Number",
+      "label": "K1-24 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
       ]
     }
   },
@@ -2020,6 +6849,36 @@
       ]
     }
   },
+  "k208_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k208",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-08 CO2 Alarm 1",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
+  "k208_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
   "k208_heating_valve_1": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2077,6 +6936,172 @@
       "label": "K2-08 Svjetlo 2",
       "tags": [
         "Lightbulb"
+      ]
+    }
+  },
+  "k208_light_3": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "lightbulb",
+      "groupNames": [
+        "k208",
+        "glights"
+      ],
+      "itemType": "Switch",
+      "label": "K2-08 Svjetlo 3",
+      "tags": [
+        "Lightbulb"
+      ]
+    }
+  },
+  "k208_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k208",
+        "grollers",
+        "grollersW"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-08 Sjenila 1",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k208_roller_2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k208",
+        "grollers",
+        "grollersS"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-08 Sjenila 2",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k208_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k208_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k208_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k208_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k208_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k208_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k208_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Switch",
+      "label": "K2-08 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k208_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k208"
+      ],
+      "itemType": "Number",
+      "label": "K2-08 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
       ]
     }
   },
@@ -2168,6 +7193,21 @@
       ]
     }
   },
+  "k210_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k210",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-10 CO2 Alarm",
+      "tags": [
+        "Alarm"
+      ]
+    }
+  },
   "k210_light_1": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2183,6 +7223,141 @@
       ]
     }
   },
+  "k210_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k210",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-10 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k210_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Number",
+      "label": "K2-10 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k210_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Number",
+      "label": "K2-10 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k210_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Number",
+      "label": "K2-10 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k210_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Number",
+      "label": "K2-10 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k210_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Number",
+      "label": "K2-10 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k210_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Number",
+      "label": "K2-10 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k210_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Switch",
+      "label": "K2-10 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k210_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k210"
+      ],
+      "itemType": "Number",
+      "label": "K2-10 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k211": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2194,6 +7369,21 @@
       "label": "K2-11 Izborni predmet",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k211_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k211",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-11 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2212,6 +7402,186 @@
       ]
     }
   },
+  "k211_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k211",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-11 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k211_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Number",
+      "label": "K2-11 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k211_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Number",
+      "label": "K2-11 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k211_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Number",
+      "label": "K2-11 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k211_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Number",
+      "label": "K2-11 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k211_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Number",
+      "label": "K2-11 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k211_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Number",
+      "label": "K2-11 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k211_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Switch",
+      "label": "K2-11 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k211_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k211"
+      ],
+      "itemType": "Number",
+      "label": "K2-11 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
+  "k211a_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-11A Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
+  "k211b_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-11B Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
+  "k211c_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-11C Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
   "k212": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2223,6 +7593,21 @@
       "label": "K2-12 Primanje roditelja",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k212_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k212",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-12 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2241,6 +7626,141 @@
       ]
     }
   },
+  "k212_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k212",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-12 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k212_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Number",
+      "label": "K2-12 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k212_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Number",
+      "label": "K2-12 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k212_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Number",
+      "label": "K2-12 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k212_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Number",
+      "label": "K2-12 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k212_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Number",
+      "label": "K2-12 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k212_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Number",
+      "label": "K2-12 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k212_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Switch",
+      "label": "K2-12 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k212_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k212"
+      ],
+      "itemType": "Number",
+      "label": "K2-12 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k213": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2252,6 +7772,21 @@
       "label": "K2-13 Referada",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k213_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k213",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-13 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2270,6 +7805,141 @@
       ]
     }
   },
+  "k213_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k213",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-13 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k213_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Number",
+      "label": "K2-13 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k213_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Number",
+      "label": "K2-13 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k213_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Number",
+      "label": "K2-13 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k213_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Number",
+      "label": "K2-13 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k213_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Number",
+      "label": "K2-13 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k213_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Number",
+      "label": "K2-13 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k213_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Switch",
+      "label": "K2-13 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k213_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k213"
+      ],
+      "itemType": "Number",
+      "label": "K2-13 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k214": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2281,6 +7951,21 @@
       "label": "K2-14 Admin/ra\u010dunovodstvo",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k214_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k214",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-14 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2299,6 +7984,141 @@
       ]
     }
   },
+  "k214_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k214",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-14 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k214_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Number",
+      "label": "K2-14 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k214_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Number",
+      "label": "K2-14 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k214_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Number",
+      "label": "K2-14 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k214_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Number",
+      "label": "K2-14 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k214_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Number",
+      "label": "K2-14 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k214_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Number",
+      "label": "K2-14 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k214_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Switch",
+      "label": "K2-14 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k214_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k214"
+      ],
+      "itemType": "Number",
+      "label": "K2-14 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k215": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2310,6 +8130,21 @@
       "label": "K2-15 Spremi\u0161te/Arhiv",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k215_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k215",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-15 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2328,6 +8163,141 @@
       ]
     }
   },
+  "k215_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k215",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-15 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k215_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Number",
+      "label": "K2-15 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k215_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Number",
+      "label": "K2-15 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k215_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Number",
+      "label": "K2-15 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k215_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Number",
+      "label": "K2-15 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k215_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Number",
+      "label": "K2-15 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k215_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Number",
+      "label": "K2-15 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k215_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Switch",
+      "label": "K2-15 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k215_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k215"
+      ],
+      "itemType": "Number",
+      "label": "K2-15 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k216": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2339,6 +8309,21 @@
       "label": "K2-16 Tajnik",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k216_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k216",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-16 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2357,6 +8342,141 @@
       ]
     }
   },
+  "k216_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k216",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-16 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k216_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Number",
+      "label": "K2-16 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k216_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Number",
+      "label": "K2-16 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k216_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Number",
+      "label": "K2-16 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k216_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Number",
+      "label": "K2-16 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k216_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Number",
+      "label": "K2-16 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k216_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Number",
+      "label": "K2-16 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k216_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Switch",
+      "label": "K2-16 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k216_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k216"
+      ],
+      "itemType": "Number",
+      "label": "K2-16 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k217": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2368,6 +8488,21 @@
       "label": "K2-17 Satni\u010dar",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k217_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k217",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-17 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2386,6 +8521,141 @@
       ]
     }
   },
+  "k217_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k217",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-17 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k217_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Number",
+      "label": "K2-17 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k217_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Number",
+      "label": "K2-17 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k217_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Number",
+      "label": "K2-17 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k217_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Number",
+      "label": "K2-17 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k217_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Number",
+      "label": "K2-17 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k217_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Number",
+      "label": "K2-17 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k217_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Switch",
+      "label": "K2-17 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k217_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k217"
+      ],
+      "itemType": "Number",
+      "label": "K2-17 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k218": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2397,6 +8667,21 @@
       "label": "K2-18 Dr\u017eavna matura",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k218_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k218",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-18 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2415,6 +8700,201 @@
       ]
     }
   },
+  "k218_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k218",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-18 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k218_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Number",
+      "label": "K2-18 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k218_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Number",
+      "label": "K2-18 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k218_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Number",
+      "label": "K2-18 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k218_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Number",
+      "label": "K2-18 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k218_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Number",
+      "label": "K2-18 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k218_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Number",
+      "label": "K2-18 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k218_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Switch",
+      "label": "K2-18 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k218_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k218"
+      ],
+      "itemType": "Number",
+      "label": "K2-18 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
+  "k218a_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-18A Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
+  "k218b_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-18B Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
+  "k218c_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-18C Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
+  "k218d_heartbeat": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "qualityofservice",
+      "groupNames": [
+        "gheartbeats"
+      ],
+      "itemType": "Number",
+      "label": "K2-18D Heartbeat",
+      "tags": [
+        "Point",
+        "Duration"
+      ]
+    }
+  },
   "k219": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2426,6 +8906,21 @@
       "label": "K2-19 Pedagog/defektolog",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k219_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k219",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-19 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2444,6 +8939,141 @@
       ]
     }
   },
+  "k219_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k219",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-19 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k219_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Number",
+      "label": "K2-19 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k219_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Number",
+      "label": "K2-19 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k219_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Number",
+      "label": "K2-19 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k219_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Number",
+      "label": "K2-19 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k219_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Number",
+      "label": "K2-19 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k219_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Number",
+      "label": "K2-19 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k219_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Switch",
+      "label": "K2-19 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k219_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k219"
+      ],
+      "itemType": "Number",
+      "label": "K2-19 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k220": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2455,6 +9085,21 @@
       "label": "K2-20 Prostor za sastanke",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k220_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k220",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-20 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2473,6 +9118,141 @@
       ]
     }
   },
+  "k220_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k220",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-20 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k220_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Number",
+      "label": "K2-20 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k220_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Number",
+      "label": "K2-20 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k220_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Number",
+      "label": "K2-20 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k220_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Number",
+      "label": "K2-20 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k220_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Number",
+      "label": "K2-20 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k220_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Number",
+      "label": "K2-20 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k220_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Switch",
+      "label": "K2-20 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k220_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k220"
+      ],
+      "itemType": "Number",
+      "label": "K2-20 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
+      ]
+    }
+  },
   "k221": {
     "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -2484,6 +9264,21 @@
       "label": "K2-21 Ravnatelj",
       "tags": [
         "Location"
+      ]
+    }
+  },
+  "k221_alarm_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "alarm",
+      "groupNames": [
+        "k221",
+        "galarms"
+      ],
+      "itemType": "Switch",
+      "label": "K2-21 CO2 Alarm",
+      "tags": [
+        "Alarm"
       ]
     }
   },
@@ -2499,6 +9294,141 @@
       "label": "K2-21 Svjetlo",
       "tags": [
         "Lightbulb"
+      ]
+    }
+  },
+  "k221_roller_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "rollershutter",
+      "groupNames": [
+        "k221",
+        "grollers",
+        "grollersE"
+      ],
+      "itemType": "Rollershutter",
+      "label": "K2-21 Sjenila",
+      "tags": [
+        "Blinds"
+      ]
+    }
+  },
+  "k221_sensor_altitude_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "altitude",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Number",
+      "label": "K2-21 Nadmorska visina",
+      "tags": [
+        "Point",
+        "Altitude"
+      ]
+    }
+  },
+  "k221_sensor_co2_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "CO2",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Number",
+      "label": "K2-21 CO2",
+      "tags": [
+        "Point",
+        "CO2"
+      ]
+    }
+  },
+  "k221_sensor_gas_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "Atmosphere",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Number",
+      "label": "K2-21 Plinovi",
+      "tags": [
+        "Point",
+        "Gas"
+      ]
+    }
+  },
+  "k221_sensor_humidity_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "humidity",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Number",
+      "label": "K2-21 Vla\u017enost zraka",
+      "tags": [
+        "Point",
+        "Humidity"
+      ]
+    }
+  },
+  "k221_sensor_light_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "sun",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Number",
+      "label": "K2-21 Osvjetljenje",
+      "tags": [
+        "Point",
+        "Light"
+      ]
+    }
+  },
+  "k221_sensor_pressure_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "pressure",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Number",
+      "label": "K2-21 Tlak zraka",
+      "tags": [
+        "Point",
+        "Pressure"
+      ]
+    }
+  },
+  "k221_sensor_radar_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "presence",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Switch",
+      "label": "K2-21 Pokret",
+      "tags": [
+        "MotionDetector"
+      ]
+    }
+  },
+  "k221_sensor_temperature_1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "category": "temperature",
+      "groupNames": [
+        "k221"
+      ],
+      "itemType": "Number",
+      "label": "K2-21 Temperatura",
+      "tags": [
+        "Point",
+        "Temperature"
       ]
     }
   },

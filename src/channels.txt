@@ -457,6 +457,15 @@
       stateTopic: 02068266368F/out/lights/1/2
       off: "0"
       on: "1"
+  - id: k208_light_3
+    channelTypeUID: mqtt:switch
+    label: K2-08 Svjetlo 3
+    description: null
+    configuration:
+      commandTopic: 02068266368F/in/lights/2/1
+      stateTopic: 02068266368F/out/lights/2/1
+      off: "0"
+      on: "1"
   - id: k209_light_1
     channelTypeUID: mqtt:switch
     label: K2-09 Svjetlo
@@ -588,8 +597,8 @@
     label: D0-00 Svjetlo
     description: null
     configuration:
-      commandTopic: 029773192D9F/in/R/relay12
-      stateTopic: 029773192D9F/out/R/relay12
+      commandTopic: 029773191B9F/in/R/relay12
+      stateTopic: 029773191B9F/out/R/relay12
       off: "0"
       on: "1"
   - id: k000_heating_valve_1
@@ -842,5 +851,3572 @@
     configuration:
       commandTopic: 02068266355B/in/R/relay4
       stateTopic: 02068266355B/out/R/relay4
+      off: "0"
+      on: "1"
+  - id: k000_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-00 Sjenila
+    description: null
+    configuration:
+      commandTopic: 029773192D9F/in/rollo/1
+      stateTopic: 029773192D9F/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k009_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-09 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0235610921FB/in/rollo/1
+      stateTopic: 0235610921FB/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k010_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-10 Sjenila
+    description: null
+    configuration:
+      commandTopic: 023561093693/in/rollo/1
+      stateTopic: 023561093693/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k011_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-11 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0235610921FB/in/rollo/2
+      stateTopic: 0235610921FB/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k012_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-12 Sjenila
+    description: null
+    configuration:
+      commandTopic: 021991464317/in/rollo/2
+      stateTopic: 021991464317/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k013_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-13 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0297731943AF/in/rollo/2
+      stateTopic: 0297731943AF/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k014_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-14 Sjenila
+    description: null
+    configuration:
+      commandTopic: 021991464317/in/rollo/1
+      stateTopic: 021991464317/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k015_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-15 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0297731943AF/in/rollo/1
+      stateTopic: 0297731943AF/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k016_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-16 Sjenila
+    description: null
+    configuration:
+      commandTopic: 02977319329F/in/rollo/1
+      stateTopic: 02977319329F/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k018_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-18 Sjenila
+    description: null
+    configuration:
+      commandTopic: 02977319329F/in/rollo/2
+      stateTopic: 02977319329F/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k019_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K0-19 Sjenila
+    description: null
+    configuration:
+      commandTopic: 02977319390F/in/rollo/1
+      stateTopic: 02977319390F/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k101_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-01 Sjenila
+    description: null
+    configuration:
+      commandTopic: 029773193117/in/rollo/1
+      stateTopic: 029773193117/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k102_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-02 Sjenila
+    description: null
+    configuration:
+      commandTopic: 02068266447B/in/rollo/2
+      stateTopic: 02068266447B/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k108_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-08 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020062033BF7/in/rollo/2
+      stateTopic: 020062033BF7/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k109_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-09 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020062033BF7/in/rollo/1
+      stateTopic: 020062033BF7/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k110_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-10 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682664A7F/in/rollo/1
+      stateTopic: 020682664A7F/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k111_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-11 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0206826626E3/in/rollo/1
+      stateTopic: 0206826626E3/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k112_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-12 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0206826626E3/in/rollo/2
+      stateTopic: 0206826626E3/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k113_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-13 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0206826634B3/in/rollo/1
+      stateTopic: 0206826634B3/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k114_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-14 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682661AC7/in/rollo/1
+      stateTopic: 020682661AC7/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k115_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-15 Sjenila
+    description: null
+    configuration:
+      commandTopic: 023561094773/in/rollo/2
+      stateTopic: 023561094773/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k116_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-16 Sjenila
+    description: null
+    configuration:
+      commandTopic: 023561094773/in/rollo/1
+      stateTopic: 023561094773/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k117_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-17 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682664CC7/in/rollo/1
+      stateTopic: 020682664CC7/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k118_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-18 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682664CC7/in/rollo/2
+      stateTopic: 020682664CC7/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k119_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-19 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682663197/in/rollo/1
+      stateTopic: 020682663197/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k120_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-20 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682663197/in/rollo/2
+      stateTopic: 020682663197/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k124_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K1-24 Sjenila
+    description: null
+    configuration:
+      commandTopic: 029773193117/in/rollo/2
+      stateTopic: 029773193117/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k208_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-08 Sjenila 1
+    description: null
+    configuration:
+      commandTopic: 02068266368F/in/rollo/1
+      stateTopic: 02068266368F/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k208_roller_2
+    channelTypeUID: mqtt:rollershutter
+    label: K2-08 Sjenila 2
+    description: null
+    configuration:
+      commandTopic: 02068266368F/in/rollo/2
+      stateTopic: 02068266368F/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k210_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-10 Sjenila
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/rollo/1
+      stateTopic: 023561093B73/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k211_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-11 Sjenila
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/rollo/2
+      stateTopic: 023561093B73/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k212_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-12 Sjenila
+    description: null
+    configuration:
+      commandTopic: 0206826652D7/in/rollo/1
+      stateTopic: 0206826652D7/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k213_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-13 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682663FE3/in/rollo/1
+      stateTopic: 020682663FE3/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k214_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-14 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682663FE3/in/rollo/2
+      stateTopic: 020682663FE3/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k215_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-15 Sjenila
+    description: null
+    configuration:
+      commandTopic: 02068266355B/in/rollo/1
+      stateTopic: 02068266355B/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k216_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-16 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682664DC3/in/rollo/2
+      stateTopic: 020682664DC3/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k217_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-17 Sjenila
+    description: null
+    configuration:
+      commandTopic: 02068266355B/in/rollo/1
+      stateTopic: 02068266355B/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k218_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-18 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682662F63/in/rollo/1
+      stateTopic: 020682662F63/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k219_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-19 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682662F63/in/rollo/2
+      stateTopic: 020682662F63/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k220_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-20 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682663DE3/in/rollo/2
+      stateTopic: 020682663DE3/out/rollo/2
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k221_roller_1
+    channelTypeUID: mqtt:rollershutter
+    label: K2-21 Sjenila
+    description: null
+    configuration:
+      commandTopic: 020682663DE3/in/rollo/1
+      stateTopic: 020682663DE3/out/rollo/1
+      off: "0"
+      on: "100"
+      stop: STOP
+  - id: k000_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-00 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/light
+      unit: lx
+  - id: k000_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-00 CO2
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/co2
+      unit: ppm
+  - id: k000_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-00 Temperatura
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k000_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-00 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k000_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-00 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k000_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-00 Plinovi
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/env/gas
+      unit: 
+  - id: k000_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-00 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k000_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-00 Pokret
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k001_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-01 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/light
+      unit: lx
+  - id: k001_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-01 CO2
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/co2
+      unit: ppm
+  - id: k001_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-01 Temperatura
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k001_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-01 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k001_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-01 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k001_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-01 Plinovi
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/gas
+      unit: 
+  - id: k001_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-01 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k001_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-01 Pokret
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k003_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-03 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/light
+      unit: lx
+  - id: k003_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-03 CO2
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/co2
+      unit: ppm
+  - id: k003_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-03 Temperatura
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k003_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-03 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k003_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-03 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k003_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-03 Plinovi
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/gas
+      unit: 
+  - id: k003_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-03 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k003_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-03 Pokret
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k009_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-09 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/light
+      unit: lx
+  - id: k009_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-09 CO2
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/co2
+      unit: ppm
+  - id: k009_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-09 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k009_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-09 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k009_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-09 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k009_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-09 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/env/gas
+      unit: 
+  - id: k009_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-09 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k009_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-09 Pokret
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k010_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-10 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/light
+      unit: lx
+  - id: k010_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-10 CO2
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/co2
+      unit: ppm
+  - id: k010_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-10 Temperatura
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k010_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-10 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k010_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-10 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k010_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-10 Plinovi
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/env/gas
+      unit: 
+  - id: k010_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-10 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k010_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-10 Pokret
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k011_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-11 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/light
+      unit: lx
+  - id: k011_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-11 CO2
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/co2
+      unit: ppm
+  - id: k011_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-11 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k011_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-11 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k011_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-11 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k011_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-11 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/env/gas
+      unit: 
+  - id: k011_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-11 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k011_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-11 Pokret
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k012_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-12 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/light
+      unit: lx
+  - id: k012_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-12 CO2
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/co2
+      unit: ppm
+  - id: k012_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-12 Temperatura
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k012_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-12 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k012_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-12 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k012_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-12 Plinovi
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/env/gas
+      unit: 
+  - id: k012_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-12 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k012_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-12 Pokret
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k013_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-13 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/light
+      unit: lx
+  - id: k013_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-13 CO2
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/co2
+      unit: ppm
+  - id: k013_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-13 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k013_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-13 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k013_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-13 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k013_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-13 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/env/gas
+      unit: 
+  - id: k013_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-13 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k013_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-13 Pokret
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k014_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-14 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/light
+      unit: lx
+  - id: k014_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-14 CO2
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/co2
+      unit: ppm
+  - id: k014_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-14 Temperatura
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k014_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-14 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k014_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-14 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k014_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-14 Plinovi
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/env/gas
+      unit: 
+  - id: k014_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-14 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k014_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-14 Pokret
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k015_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-15 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/light
+      unit: lx
+  - id: k015_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-15 CO2
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/co2
+      unit: ppm
+  - id: k015_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-15 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k015_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-15 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k015_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-15 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k015_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-15 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/env/gas
+      unit: 
+  - id: k015_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-15 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k015_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-15 Pokret
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k016_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-16 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/light
+      unit: lx
+  - id: k016_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-16 CO2
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/co2
+      unit: ppm
+  - id: k016_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-16 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k016_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-16 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k016_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-16 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k016_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-16 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/env/gas
+      unit: 
+  - id: k016_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-16 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k016_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-16 Pokret
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k018_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-18 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/light
+      unit: lx
+  - id: k018_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-18 CO2
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/co2
+      unit: ppm
+  - id: k018_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-18 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k018_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-18 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k018_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-18 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k018_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-18 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/env/gas
+      unit: 
+  - id: k018_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-18 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k018_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-18 Pokret
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k019_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K0-19 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/light
+      unit: lx
+  - id: k019_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K0-19 CO2
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/co2
+      unit: ppm
+  - id: k019_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K0-19 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k019_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K0-19 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k019_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K0-19 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k019_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K0-19 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/env/gas
+      unit: 
+  - id: k019_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K0-19 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k019_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K0-19 Pokret
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k100_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-00 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/light
+      unit: lx
+  - id: k100_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-00 CO2
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/co2
+      unit: ppm
+  - id: k100_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-00 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k100_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-00 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k100_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-00 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k100_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-00 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/env/gas
+      unit: 
+  - id: k100_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-00 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k100_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-00 Pokret
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k101_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-01 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/light
+      unit: lx
+  - id: k101_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-01 CO2
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/co2
+      unit: ppm
+  - id: k101_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-01 Temperatura
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k101_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-01 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k101_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-01 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k101_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-01 Plinovi
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/env/gas
+      unit: 
+  - id: k101_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-01 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k101_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-01 Pokret
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k102_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-02 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/light
+      unit: lx
+  - id: k102_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-02 CO2
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/co2
+      unit: ppm
+  - id: k102_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-02 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k102_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-02 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k102_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-02 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k102_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-02 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/env/gas
+      unit: 
+  - id: k102_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-02 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k102_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-02 Pokret
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k108_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-08 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/light
+      unit: lx
+  - id: k108_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-08 CO2
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/co2
+      unit: ppm
+  - id: k108_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-08 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k108_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-08 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k108_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-08 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k108_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-08 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/env/gas
+      unit: 
+  - id: k108_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-08 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k108_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-08 Pokret
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k109_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-09 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/light
+      unit: lx
+  - id: k109_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-09 CO2
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/co2
+      unit: ppm
+  - id: k109_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-09 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k109_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-09 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k109_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-09 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k109_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-09 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/env/gas
+      unit: 
+  - id: k109_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-09 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k109_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-09 Pokret
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k110_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-10 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/light
+      unit: lx
+  - id: k110_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-10 CO2
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/co2
+      unit: ppm
+  - id: k110_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-10 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k110_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-10 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k110_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-10 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k110_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-10 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/env/gas
+      unit: 
+  - id: k110_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-10 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k110_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-10 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k111_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-11 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/light
+      unit: lx
+  - id: k111_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-11 CO2
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/co2
+      unit: ppm
+  - id: k111_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-11 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k111_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-11 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k111_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-11 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k111_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-11 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/env/gas
+      unit: 
+  - id: k111_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-11 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k111_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-11 Pokret
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k112_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-12 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/light
+      unit: lx
+  - id: k112_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-12 CO2
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/co2
+      unit: ppm
+  - id: k112_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-12 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k112_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-12 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k112_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-12 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k112_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-12 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/env/gas
+      unit: 
+  - id: k112_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-12 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k112_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-12 Pokret
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k113_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-13 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/light
+      unit: lx
+  - id: k113_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-13 CO2
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/co2
+      unit: ppm
+  - id: k113_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-13 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k113_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-13 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k113_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-13 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k113_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-13 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/env/gas
+      unit: 
+  - id: k113_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-13 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k113_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-13 Pokret
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k114_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-14 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/light
+      unit: lx
+  - id: k114_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-14 CO2
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/co2
+      unit: ppm
+  - id: k114_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-14 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k114_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-14 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k114_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-14 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k114_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-14 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/env/gas
+      unit: 
+  - id: k114_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-14 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k114_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-14 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k115_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-15 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/light
+      unit: lx
+  - id: k115_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-15 CO2
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/co2
+      unit: ppm
+  - id: k115_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-15 Temperatura
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k115_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-15 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k115_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-15 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k115_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-15 Plinovi
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/env/gas
+      unit: 
+  - id: k115_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-15 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k115_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-15 Pokret
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k116_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-16 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/light
+      unit: lx
+  - id: k116_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-16 CO2
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/co2
+      unit: ppm
+  - id: k116_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-16 Temperatura
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k116_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-16 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k116_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-16 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k116_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-16 Plinovi
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/env/gas
+      unit: 
+  - id: k116_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-16 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k116_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-16 Pokret
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k117_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-17 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/light
+      unit: lx
+  - id: k117_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-17 CO2
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/co2
+      unit: ppm
+  - id: k117_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-17 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k117_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-17 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k117_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-17 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k117_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-17 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/env/gas
+      unit: 
+  - id: k117_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-17 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k117_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-17 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k118_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-18 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/light
+      unit: lx
+  - id: k118_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-18 CO2
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/co2
+      unit: ppm
+  - id: k118_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-18 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k118_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-18 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k118_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-18 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k118_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-18 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/env/gas
+      unit: 
+  - id: k118_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-18 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k118_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-18 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k119_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-19 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/light
+      unit: lx
+  - id: k119_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-19 CO2
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/co2
+      unit: ppm
+  - id: k119_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-19 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k119_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-19 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k119_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-19 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k119_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-19 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/env/gas
+      unit: 
+  - id: k119_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-19 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k119_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-19 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k120_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-20 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/light
+      unit: lx
+  - id: k120_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-20 CO2
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/co2
+      unit: ppm
+  - id: k120_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-20 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k120_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-20 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k120_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-20 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k120_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-20 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/env/gas
+      unit: 
+  - id: k120_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-20 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k120_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-20 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k124_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K1-24 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/light
+      unit: lx
+  - id: k124_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K1-24 CO2
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/co2
+      unit: ppm
+  - id: k124_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K1-24 Temperatura
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k124_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K1-24 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k124_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K1-24 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k124_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K1-24 Plinovi
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/env/gas
+      unit: 
+  - id: k124_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K1-24 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k124_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K1-24 Pokret
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k208_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-08 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/light
+      unit: lx
+  - id: k208_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-08 CO2
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/co2
+      unit: ppm
+  - id: k208_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-08 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k208_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-08 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k208_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-08 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k208_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-08 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/env/gas
+      unit: 
+  - id: k208_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-08 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k208_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-08 Pokret
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k210_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-10 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/light
+      unit: lx
+  - id: k210_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-10 CO2
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/co2
+      unit: ppm
+  - id: k210_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-10 Temperatura
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k210_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-10 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k210_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-10 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k210_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-10 Plinovi
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/env/gas
+      unit: 
+  - id: k210_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-10 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k210_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-10 Pokret
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k211_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-11 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/light
+      unit: lx
+  - id: k211_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-11 CO2
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/co2
+      unit: ppm
+  - id: k211_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-11 Temperatura
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k211_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-11 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k211_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-11 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k211_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-11 Plinovi
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/env/gas
+      unit: 
+  - id: k211_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-11 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k211_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-11 Pokret
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k212_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-12 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/light
+      unit: lx
+  - id: k212_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-12 CO2
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/co2
+      unit: ppm
+  - id: k212_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-12 Temperatura
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k212_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-12 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k212_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-12 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k212_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-12 Plinovi
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/env/gas
+      unit: 
+  - id: k212_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-12 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k212_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-12 Pokret
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k213_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-13 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/light
+      unit: lx
+  - id: k213_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-13 CO2
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/co2
+      unit: ppm
+  - id: k213_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-13 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k213_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-13 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k213_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-13 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k213_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-13 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/env/gas
+      unit: 
+  - id: k213_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-13 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k213_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-13 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k214_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-14 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/light
+      unit: lx
+  - id: k214_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-14 CO2
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/co2
+      unit: ppm
+  - id: k214_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-14 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k214_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-14 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k214_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-14 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k214_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-14 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/env/gas
+      unit: 
+  - id: k214_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-14 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k214_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-14 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k215_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-15 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/light
+      unit: lx
+  - id: k215_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-15 CO2
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/co2
+      unit: ppm
+  - id: k215_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-15 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k215_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-15 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k215_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-15 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k215_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-15 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/gas
+      unit: 
+  - id: k215_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-15 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k215_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-15 Pokret
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k216_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-16 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/light
+      unit: lx
+  - id: k216_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-16 CO2
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/co2
+      unit: ppm
+  - id: k216_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-16 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k216_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-16 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k216_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-16 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k216_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-16 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/env/gas
+      unit: 
+  - id: k216_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-16 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k216_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-16 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k217_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-17 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/light
+      unit: lx
+  - id: k217_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-17 CO2
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/co2
+      unit: ppm
+  - id: k217_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-17 Temperatura
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k217_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-17 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k217_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-17 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k217_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-17 Plinovi
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/gas
+      unit: 
+  - id: k217_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-17 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k217_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-17 Pokret
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k218_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-18 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/light
+      unit: lx
+  - id: k218_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-18 CO2
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/co2
+      unit: ppm
+  - id: k218_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-18 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k218_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-18 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k218_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-18 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k218_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-18 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/env/gas
+      unit: 
+  - id: k218_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-18 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k218_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-18 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k219_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-19 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/light
+      unit: lx
+  - id: k219_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-19 CO2
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/co2
+      unit: ppm
+  - id: k219_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-19 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k219_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-19 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k219_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-19 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k219_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-19 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/env/gas
+      unit: 
+  - id: k219_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-19 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k219_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-19 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k220_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-20 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/light
+      unit: lx
+  - id: k220_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-20 CO2
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/co2
+      unit: ppm
+  - id: k220_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-20 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k220_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-20 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k220_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-20 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k220_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-20 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/env/gas
+      unit: 
+  - id: k220_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-20 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k220_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-20 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S2/radar
+      off: "0"
+      on: "1"
+  - id: k221_sensor_light_1
+    channelTypeUID: mqtt:number
+    label: K2-21 Osvjetljenje
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/light
+      unit: lx
+  - id: k221_sensor_co2_1
+    channelTypeUID: mqtt:number
+    label: K2-21 CO2
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/co2
+      unit: ppm
+  - id: k221_sensor_temperature_1
+    channelTypeUID: mqtt:number
+    label: K2-21 Temperatura
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/env/temperature
+      unit: °C
+      transformationPattern: "JS:| Math.round(Number(input) * 10) / 10"
+  - id: k221_sensor_pressure_1
+    channelTypeUID: mqtt:number
+    label: K2-21 Tlak zraka
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/env/pressure
+      unit: hPa
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k221_sensor_humidity_1
+    channelTypeUID: mqtt:number
+    label: K2-21 Vlažnost zraka
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/env/humidity
+      unit: %
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k221_sensor_gas_1
+    channelTypeUID: mqtt:number
+    label: K2-21 Plinovi
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/env/gas
+      unit: 
+  - id: k221_sensor_altitude_1
+    channelTypeUID: mqtt:number
+    label: K2-21 Nadmorska visina
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/env/altitude
+      unit: m
+      transformationPattern: "JS:| parseInt(input)"
+  - id: k221_sensor_radar_1
+    channelTypeUID: mqtt:switch
+    label: K2-21 Pokret
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/S1/radar
+      off: "0"
+      on: "1"
+  - id: k001_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-01 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 029773192D9F/out/heartbeat
+  - id: k007_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-07 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 029773191B9F/out/heartbeat
+  - id: k009_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-09 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 0235610921FB/out/heartbeat
+  - id: k010_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-10 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 023561093693/out/heartbeat
+  - id: k014_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-14 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 021991464317/out/heartbeat
+  - id: k015_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-15 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 0297731943AF/out/heartbeat
+  - id: k016_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-16 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 02977319329F/out/heartbeat
+  - id: k019_heartbeat
+    channelTypeUID: mqtt:number
+    label: K0-19 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 02977319390F/out/heartbeat
+  - id: k101a_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-01A Heartbeat
+    description: null
+    configuration:
+      stateTopic: 029773193117/out/heartbeat
+  - id: k101b_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-01B Heartbeat
+    description: null
+    configuration:
+      stateTopic: 02068266447B/out/heartbeat
+  - id: k109_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-09 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020062033BF7/out/heartbeat
+  - id: k110_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-10 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682664A7F/out/heartbeat
+  - id: k111_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-11 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 0206826626E3/out/heartbeat
+  - id: k113_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-13 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 0206826634B3/out/heartbeat
+  - id: k114_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-14 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682661AC7/out/heartbeat
+  - id: k116_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-16 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 023561094773/out/heartbeat
+  - id: k117_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-17 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682664CC7/out/heartbeat
+  - id: k119_heartbeat
+    channelTypeUID: mqtt:number
+    label: K1-19 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682663197/out/heartbeat
+  - id: k208_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-08 Heartbeat
+    description: null
+    configuration:
+      stateTopic: 02068266368F/out/heartbeat
+  - id: k211a_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-11A Heartbeat
+    description: null
+    configuration:
+      stateTopic: 023561093B73/out/heartbeat
+  - id: k211b_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-11B Heartbeat
+    description: null
+    configuration:
+      stateTopic: 0206826652D7/out/heartbeat
+  - id: k211c_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-11C Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682663FE3/out/heartbeat
+  - id: k218a_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-18A Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682663DE3/out/heartbeat
+  - id: k218b_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-18B Heartbeat
+    description: null
+    configuration:
+      stateTopic: 02068266355B/out/heartbeat
+  - id: k218c_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-18C Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682662F63/out/heartbeat
+  - id: k218d_heartbeat
+    channelTypeUID: mqtt:number
+    label: K2-18D Heartbeat
+    description: null
+    configuration:
+      stateTopic: 020682664DC3/out/heartbeat
+  - id: k000_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-00 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 029773192D9F/in/co2_alarm/1
+      stateTopic: 029773192D9F/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k001_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-01 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 029773192D9F/in/co2_alarm/2
+      stateTopic: 029773192D9F/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k009_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-09 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0235610921FB/in/co2_alarm/1
+      stateTopic: 0235610921FB/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k010_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-10 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 023561093693/in/co2_alarm/1
+      stateTopic: 023561093693/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k011_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-11 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0235610921FB/in/co2_alarm/2
+      stateTopic: 0235610921FB/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k012_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-12 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 021991464317/in/co2_alarm/2
+      stateTopic: 021991464317/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k013_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-13 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0297731943AF/in/co2_alarm/2
+      stateTopic: 0297731943AF/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k014_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-14 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 021991464317/in/co2_alarm/1
+      stateTopic: 021991464317/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k015_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-15 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0297731943AF/in/co2_alarm/1
+      stateTopic: 0297731943AF/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k016_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-16 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02977319329F/in/co2_alarm/1
+      stateTopic: 02977319329F/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k018_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-18 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02977319329F/in/co2_alarm/2
+      stateTopic: 02977319329F/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k019_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K0-19 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02977319390F/in/co2_alarm/1
+      stateTopic: 02977319390F/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k100_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-00 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02068266447B/in/co2_alarm/1
+      stateTopic: 02068266447B/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k101_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-01 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 029773193117/in/co2_alarm/1
+      stateTopic: 029773193117/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k102_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-02 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02068266447B/in/co2_alarm/2
+      stateTopic: 02068266447B/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k108_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-08 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020062033BF7/in/co2_alarm/2
+      stateTopic: 020062033BF7/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k109_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-09 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020062033BF7/in/co2_alarm/1
+      stateTopic: 020062033BF7/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k110_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-10 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682664A7F/in/co2_alarm/1
+      stateTopic: 020682664A7F/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k111_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-11 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0206826626E3/in/co2_alarm/1
+      stateTopic: 0206826626E3/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k112_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-12 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0206826626E3/in/co2_alarm/2
+      stateTopic: 0206826626E3/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k113_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-13 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0206826634B3/in/co2_alarm/1
+      stateTopic: 0206826634B3/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k114_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-14 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682661AC7/in/co2_alarm/1
+      stateTopic: 020682661AC7/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k115_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-15 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 023561094773/in/co2_alarm/2
+      stateTopic: 023561094773/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k116_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-16 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 023561094773/in/co2_alarm/1
+      stateTopic: 023561094773/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k117_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-17 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682664CC7/in/co2_alarm/1
+      stateTopic: 020682664CC7/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k118_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-18 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682664CC7/in/co2_alarm/2
+      stateTopic: 020682664CC7/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k119_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-19 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682663197/in/co2_alarm/1
+      stateTopic: 020682663197/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k120_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-20 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682663197/in/co2_alarm/2
+      stateTopic: 020682663197/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k124_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K1-24 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 029773193117/in/co2_alarm/2
+      stateTopic: 029773193117/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k208_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-08 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02068266368F/in/co2_alarm/1
+      stateTopic: 02068266368F/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k210_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-10 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/co2_alarm/1
+      stateTopic: 023561093B73/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k211_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-11 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 023561093B73/in/co2_alarm/2
+      stateTopic: 023561093B73/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k212_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-12 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 0206826652D7/in/co2_alarm/1
+      stateTopic: 0206826652D7/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k213_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-13 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682663FE3/in/co2_alarm/1
+      stateTopic: 020682663FE3/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k214_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-14 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682663FE3/in/co2_alarm/2
+      stateTopic: 020682663FE3/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k215_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-15 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02068266355B/in/co2_alarm/1
+      stateTopic: 02068266355B/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k216_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-16 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682664DC3/in/co2_alarm/2
+      stateTopic: 020682664DC3/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k217_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-17 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 02068266355B/in/co2_alarm/1
+      stateTopic: 02068266355B/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k218_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-18 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682662F63/in/co2_alarm/1
+      stateTopic: 020682662F63/out/co2_alarm/1
+      off: "0"
+      on: "1"
+  - id: k219_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-19 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682662F63/in/co2_alarm/2
+      stateTopic: 020682662F63/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k220_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-20 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682663DE3/in/co2_alarm/2
+      stateTopic: 020682663DE3/out/co2_alarm/2
+      off: "0"
+      on: "1"
+  - id: k221_alarm_1
+    channelTypeUID: mqtt:switch
+    label: K2-21 CO2 Alarm
+    description: null
+    configuration:
+      commandTopic: 020682663DE3/in/co2_alarm/1
+      stateTopic: 020682663DE3/out/co2_alarm/1
       off: "0"
       on: "1"
