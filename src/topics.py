@@ -53,11 +53,11 @@ class RoomName(RoomDescription, Enum):
     k105 = "k105", "WC - muški", "wc"
     k106 = "k106", "WC - invalid", "wc"
     k107 = "k107", "Spremište", "maintanance"
-    k108 = "k108", "Kabinet Umjetnost/Vjeronauk", "classroomoffice"
+    k108 = "k108", "Kabinet Hrvatski", "classroomoffice"
     k109 = "k109", "Hrvatski 1", "classroom"
     k110 = "k110", "Umjetnost/Vjeronauk", "classroom"
     k111 = "k111", "Hrvatski 2", "classroom"
-    k112 = "k112", "Kabinet Hrvatski", "classroomoffice"
+    k112 = "k112", "Kabinet Društvo", "classroomoffice"
     k113 = "k113", "Društvo", "classroom"
     k114 = "k114", "Geografija", "classroom"
     k115 = "k115", "Kabinet Geo / Pov", "classroomoffice"
@@ -504,17 +504,7 @@ def get_rooms():
         name = RoomName.k001,
         lights = [Light(DeviceName.k001, 1, 2, 1)],
         heating_valves = [HeatingValve(DeviceName.k001, 4, "RAZ5", "Jug")],
-        alarms = [Alarm(DeviceName.k001, 2)],
-        sensors = [
-            LightSensor(DeviceName.k001, BoardName.s2),
-            Co2Sensor(DeviceName.k001, BoardName.s2),
-            TemperatureSensor(DeviceName.k001, BoardName.s2),
-            PressureSensor(DeviceName.k001, BoardName.s2),
-            HumiditySensor(DeviceName.k001, BoardName.s2),
-            GasSensor(DeviceName.k001, BoardName.s2),
-            AltitudeSensor(DeviceName.k001, BoardName.s2),
-            RadarSensor(DeviceName.k001, BoardName.s2)
-            ]))
+        alarms = [Alarm(DeviceName.k001, 2)]))
 
     rooms.append(Room(
         name = RoomName.k002))
@@ -727,7 +717,6 @@ def get_rooms():
         name = RoomName.k100,
         lights = [Light(DeviceName.k101b, 1, 1)],
         heating_valves = [HeatingValve(DeviceName.k109, 4, "RAZ29")],
-        alarms = [Alarm(DeviceName.k101b, 1)],
         sensors = [
             LightSensor(DeviceName.k101b, BoardName.s1),
             Co2Sensor(DeviceName.k101b, BoardName.s1),
@@ -793,8 +782,6 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k108,
         lights = [Light(DeviceName.k109, 2, 1)],
-        rollers = [Roller(DeviceName.k109, 2, "W")],
-        alarms = [Alarm(DeviceName.k109, 2)],
         sensors = [
             LightSensor(DeviceName.k109, BoardName.s2),
             Co2Sensor(DeviceName.k109, BoardName.s2),
@@ -1064,8 +1051,8 @@ def get_rooms():
         name = RoomName.k208,
         lights = [Light(DeviceName.k208, 1, 1), Light(DeviceName.k208, 1, 2), Light(DeviceName.k208, 2, 1)],
         heating_valves = [HeatingValve(DeviceName.k208, 4, "RAZ53"), HeatingValve(DeviceName.k208, 4, "RAZ51")],
-        rollers = [Roller(DeviceName.k208, 1, "W"), Roller(DeviceName.k208, 2, "S")],
-        alarms = [Alarm(DeviceName.k208, 1)],
+        rollers = [Roller(DeviceName.k208, 1, "W"), Roller(DeviceName.k208, 2, "E")],
+        alarms = [Alarm(DeviceName.k208, 1), Alarm(DeviceName.k208, 1)],
         sensors = [
             LightSensor(DeviceName.k208, BoardName.s1),
             Co2Sensor(DeviceName.k208, BoardName.s1),
@@ -1074,7 +1061,15 @@ def get_rooms():
             HumiditySensor(DeviceName.k208, BoardName.s1),
             GasSensor(DeviceName.k208, BoardName.s1),
             AltitudeSensor(DeviceName.k208, BoardName.s1),
-            RadarSensor(DeviceName.k208, BoardName.s1)
+            RadarSensor(DeviceName.k208, BoardName.s1),
+            LightSensor(DeviceName.k208, BoardName.s2),
+            Co2Sensor(DeviceName.k208, BoardName.s2),
+            TemperatureSensor(DeviceName.k208, BoardName.s2),
+            PressureSensor(DeviceName.k208, BoardName.s2),
+            HumiditySensor(DeviceName.k208, BoardName.s2),
+            GasSensor(DeviceName.k208, BoardName.s2),
+            AltitudeSensor(DeviceName.k208, BoardName.s2),
+            RadarSensor(DeviceName.k208, BoardName.s2)
             ]))
 
     rooms.append(Room(
@@ -1086,22 +1081,6 @@ def get_rooms():
     rooms.append(Room(
         name = RoomName.k210,
         lights = [Light(DeviceName.k211a, 2, 1)],
-        rollers = [Roller(DeviceName.k211a, 1, "E")],
-        alarms = [Alarm(DeviceName.k211a, 1)],
-        sensors = [
-            LightSensor(DeviceName.k211a, BoardName.s1),
-            Co2Sensor(DeviceName.k211a, BoardName.s1),
-            TemperatureSensor(DeviceName.k211a, BoardName.s1),
-            PressureSensor(DeviceName.k211a, BoardName.s1),
-            HumiditySensor(DeviceName.k211a, BoardName.s1),
-            GasSensor(DeviceName.k211a, BoardName.s1),
-            AltitudeSensor(DeviceName.k211a, BoardName.s1),
-            RadarSensor(DeviceName.k211a, BoardName.s1)
-            ]))
-
-    rooms.append(Room(
-        name = RoomName.k211,
-        lights = [Light(DeviceName.k211a, 1, 1)],
         rollers = [Roller(DeviceName.k211a, 2, "E")],
         alarms = [Alarm(DeviceName.k211a, 2)],
         sensors = [
@@ -1113,6 +1092,22 @@ def get_rooms():
             GasSensor(DeviceName.k211a, BoardName.s2),
             AltitudeSensor(DeviceName.k211a, BoardName.s2),
             RadarSensor(DeviceName.k211a, BoardName.s2)
+            ]))
+
+    rooms.append(Room(
+        name = RoomName.k211,
+        lights = [Light(DeviceName.k211a, 1, 1)],
+        rollers = [Roller(DeviceName.k211a, 1, "E")],
+        alarms = [Alarm(DeviceName.k211a, 1)],
+        sensors = [
+            LightSensor(DeviceName.k211a, BoardName.s1),
+            Co2Sensor(DeviceName.k211a, BoardName.s1),
+            TemperatureSensor(DeviceName.k211a, BoardName.s1),
+            PressureSensor(DeviceName.k211a, BoardName.s1),
+            HumiditySensor(DeviceName.k211a, BoardName.s1),
+            GasSensor(DeviceName.k211a, BoardName.s1),
+            AltitudeSensor(DeviceName.k211a, BoardName.s1),
+            RadarSensor(DeviceName.k211a, BoardName.s1)
             ]))
 
     rooms.append(Room(
@@ -1165,18 +1160,18 @@ def get_rooms():
 
     rooms.append(Room(
         name = RoomName.k215,
-        lights = [Light(DeviceName.k218b, 1, 1)],
-        rollers = [Roller(DeviceName.k218b, 1, "E")],
-        alarms = [Alarm(DeviceName.k218b, 1)],
+        lights = [Light(DeviceName.k218b, 2, 1)],
+        rollers = [Roller(DeviceName.k218b, 2, "E")],
+        alarms = [Alarm(DeviceName.k218b, 2)],
         sensors = [
-            LightSensor(DeviceName.k218b, BoardName.s1),
-            Co2Sensor(DeviceName.k218b, BoardName.s1),
-            TemperatureSensor(DeviceName.k218b, BoardName.s1),
-            PressureSensor(DeviceName.k218b, BoardName.s1),
-            HumiditySensor(DeviceName.k218b, BoardName.s1),
-            GasSensor(DeviceName.k218b, BoardName.s1),
-            AltitudeSensor(DeviceName.k218b, BoardName.s1),
-            RadarSensor(DeviceName.k218b, BoardName.s1)
+            LightSensor(DeviceName.k218b, BoardName.s2),
+            Co2Sensor(DeviceName.k218b, BoardName.s2),
+            TemperatureSensor(DeviceName.k218b, BoardName.s2),
+            PressureSensor(DeviceName.k218b, BoardName.s2),
+            HumiditySensor(DeviceName.k218b, BoardName.s2),
+            GasSensor(DeviceName.k218b, BoardName.s2),
+            AltitudeSensor(DeviceName.k218b, BoardName.s2),
+            RadarSensor(DeviceName.k218b, BoardName.s2)
             ]))
 
     rooms.append(Room(
