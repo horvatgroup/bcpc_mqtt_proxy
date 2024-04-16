@@ -5,11 +5,9 @@ StartLimitIntervalSec=0
 [Service]
 Type=exec
 Environment=PYTHONUNBUFFERED=true
-ExecStart=/usr/bin/python ~/git/horvatgroup/bcpc_mqtt_proxy/src/lan_debugger.py
-
+ExecStart=/usr/bin/python %h/git/horvatgroup/bcpc_mqtt_proxy/src/lan_debugger.py
 Restart=always
 RestartSec=1
-WatchdogSec=10
 
 [Install]
 WantedBy=default.target
