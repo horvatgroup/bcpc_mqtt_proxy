@@ -197,6 +197,40 @@ def generate_item_alarms():
             data[id] = generate_group(item_type=item_type, label=label, group_names=group_names, tags=tags, category=category)
     return data
 
+def generate_item_ventilations():
+    data = {}
+    rooms = topics.get_rooms()
+    for room in rooms:
+        for e,ventilation in enumerate(room.ventilations):
+            id = f"{room.name.id}_ventilation_{e + 1}"
+            group_names = [room.name.id]
+            item_type = "Switch"
+            tags = ["HVAC"]
+            if len(room.ventilations) > 1:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Ventilacija {e + 1}"
+            else:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Ventilacija"
+            category = "fan"
+            data[id] = generate_group(item_type=item_type, label=label, group_names=group_names, tags=tags, category=category)
+    return data
+
+def generate_item_ac_sockets():
+    data = {}
+    rooms = topics.get_rooms()
+    for room in rooms:
+        for e,ac_socket in enumerate(room.ac_sockets):
+            id = f"{room.name.id}_ac_socket_{e + 1}"
+            group_names = [room.name.id]
+            item_type = "Switch"
+            tags = ["PowerOutlet"]
+            if len(room.ac_sockets) > 1:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Utičnica {e + 1}"
+            else:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Utičnica"
+            category = "poweroutlet"
+            data[id] = generate_group(item_type=item_type, label=label, group_names=group_names, tags=tags, category=category)
+    return data
+
 def generate_items():
     data = {}
     data.update(generate_item_lights())
@@ -205,6 +239,8 @@ def generate_items():
     data.update(generate_item_sensors())
     data.update(generate_item_heartbeats())
     data.update(generate_item_alarms())
+    data.update(generate_item_ventilations())
+    data.update(generate_item_ac_sockets())
     data.update(generate_group_locations())
     data.update(generate_other_groups())
     export_to_json(data, "items.json")
@@ -336,6 +372,36 @@ def generate_alarms_channels():
             lines += generate_channel(id=id, channel_type="switch", label=label, command_topic=command_topic, state_topic=state_topic, values={"off": '"0"', "on": '"1"'}, unit=None, transformation_pattern=None)
     return lines
 
+def generate_ventilations_channels():
+    lines = []
+    rooms = topics.get_rooms()
+    for room in rooms:
+        for e,ventilation in enumerate(room.ventilations):
+            id = f"{room.name.id}_ventilation_{e + 1}"
+            if len(room.ventilations) > 1:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Ventilacija {e + 1}"
+            else:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Ventilacija"
+            command_topic = topics.Direction.write(ventilation.get_mac_topic())
+            state_topic = topics.Direction.read(ventilation.get_mac_topic())
+            lines += generate_channel(id=id, channel_type="switch", label=label, command_topic=command_topic, state_topic=state_topic, values={"off": '"0"', "on": '"1"'}, unit=None, transformation_pattern=None)
+    return lines
+
+def generate_ac_sockets_channels():
+    lines = []
+    rooms = topics.get_rooms()
+    for room in rooms:
+        for e,ac_socket in enumerate(room.ac_sockets):
+            id = f"{room.name.id}_ac_socket_{e + 1}"
+            if len(room.ventilations) > 1:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Utičnica {e + 1}"
+            else:
+                label = f"{room.name.id[:2].upper()}-{room.name.id[2:4]} Utičnica"
+            command_topic = topics.Direction.write(ac_socket.get_mac_topic())
+            state_topic = topics.Direction.read(ac_socket.get_mac_topic())
+            lines += generate_channel(id=id, channel_type="switch", label=label, command_topic=command_topic, state_topic=state_topic, values={"off": '"0"', "on": '"1"'}, unit=None, transformation_pattern=None)
+    return lines
+
 def generate_channels():
     lines = []
     lines += generate_light_channels()
@@ -344,6 +410,8 @@ def generate_channels():
     lines += generate_sensors_channels()
     lines += generate_heartbeats_channels()
     lines += generate_alarms_channels()
+    lines += generate_ventilations_channels()
+    lines += generate_ac_sockets_channels()
     with open('channels.txt', 'w') as the_file:
         the_file.write("\n".join(lines))
 
@@ -386,6 +454,14 @@ def generate_links():
             data[key] = generate_link(id)
         for e,alarm in enumerate(room.alarms):
             id = f"{room.name.id}_alarm_{e + 1}"
+            key = f"{id} -\u003e mqtt:topic:ac491caaaa:hg_smartschool:{id}"
+            data[key] = generate_link(id)
+        for e,ventilation in enumerate(room.ventilations):
+            id = f"{room.name.id}_ventilation_{e + 1}"
+            key = f"{id} -\u003e mqtt:topic:ac491caaaa:hg_smartschool:{id}"
+            data[key] = generate_link(id)
+        for e,ac_socket in enumerate(room.ac_sockets):
+            id = f"{room.name.id}_ac_socket_{e + 1}"
             key = f"{id} -\u003e mqtt:topic:ac491caaaa:hg_smartschool:{id}"
             data[key] = generate_link(id)
     export_to_json(data, "links.json")

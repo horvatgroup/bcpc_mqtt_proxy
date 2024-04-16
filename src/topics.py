@@ -1319,6 +1319,13 @@ def get_device_by_name(device_name):
             return device
     return None
 
+def get_device_by_address(device_address):
+    devices = get_devices()
+    for device in devices:
+        if device.device.value == device_address:
+            return device
+    return None
+
 def get_heartbeats():
     heartbeats = []
     for device in DeviceName:
