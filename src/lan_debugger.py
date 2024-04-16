@@ -3,9 +3,16 @@ from typing import Optional
 import aiomqtt
 from aiomqtt.topic import Topic
 from dataclasses import dataclass
+from time import time
 import credentials
 from topics import get_device_by_address
 from topics import Device as TopicDevice
+
+def get_millis():
+    return round(time() * 1000)
+
+def millis_passed(timestamp):
+    return get_millis() - timestamp
 
 @dataclass
 class Device:
@@ -15,6 +22,8 @@ class Device:
     bsr: int = 30765
     cbln: int = 0
     scsr: int = 4184
+    timestamp = -1
+    responding = True
 
 devices: list[Device] = []
 
@@ -28,6 +37,7 @@ def get_device(topic: Topic) -> Device:
     if topic_device is not None:
         alias = topic_device.device.name
     devices.append(Device(address, alias))
+    devices[-1].timestamp = get_millis()
     print(f"[DEVICE]: adding new device [{alias}]")
     return devices[-1]
 
@@ -153,7 +163,18 @@ def parse_message(topic: Topic, payload: str|bytes|bytearray|int|float):
     payload = str(payload)
     device = get_device(topic)
     add_lan_property_to_device(payload, device)
+    if not device.responding:
+        device.responding = True
+        print(f"[TIMEOUT] {device.alias} responded after {int(millis_passed(device.timestamp)/60)}m or {millis_passed(device.timestamp)}s")
+    device.timestamp = get_millis()
+
     #print(topic, payload)
+
+def check_device_timeout():
+    for device in devices:
+        if millis_passed(device.timestamp) >= 2 * 60 * 1000:
+            print(f"[TIMEOUT]: {device.alias} did not respond on time")
+            device.responding = False
 
 async def main():
     print("[MAIN]: start")
