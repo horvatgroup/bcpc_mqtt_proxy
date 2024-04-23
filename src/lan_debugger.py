@@ -22,6 +22,8 @@ class Device:
     bsr: int = 30765
     cbln: int = 0
     scsr: int = 4184
+    reactivate_counter = 0
+    reinit_lwip_counter = 0
     timestamp = -1
     responding = True
 
@@ -124,38 +126,51 @@ def get_estimated_cable_length(value):
             return -1
 
 def add_lan_property_to_device(topic: str, device: Device):
-    bcr, bsr, cbln, scsr = [int(i) for i in topic[1:-1].split(", ")]
-    if device.bcr != bcr:
-        old_bcr_parsed = parse_bcr(device.bcr)
-        new_bcr_parsed = parse_bcr(bcr)
-        for i in range(len(old_bcr_parsed)):
-            if old_bcr_parsed[i].value != new_bcr_parsed[i].value:
-                print(f"[BCR]: [{device.alias}].[{old_bcr_parsed[i].name}] {old_bcr_parsed[i].value} -> {new_bcr_parsed[i].value}")
-        device.bcr = bcr
-    if device.bsr != bsr:
-        old_bsr_parsed = parse_bsr(device.bsr)
-        new_bsr_parsed = parse_bsr(bsr)
-        for i in range(len(old_bsr_parsed)):
-            if old_bsr_parsed[i].value != new_bsr_parsed[i].value:
-                print(f"[BSR]: [{device.alias}].[{old_bsr_parsed[i].name}] {old_bsr_parsed[i].value} -> {new_bsr_parsed[i].value}")
-        device.bsr = bsr
-    if device.cbln != cbln:
-        old_cbln_parsed = parse_cbln(device.cbln)
-        new_cbln_parsed = parse_cbln(cbln)
-        for i in range(len(old_cbln_parsed)):
-            if old_cbln_parsed[i].value != new_cbln_parsed[i].value:
-                if old_cbln_parsed[i].name == "Cable Length" and old_cbln_parsed[i].value == 0:
-                    print(f"[CBLN]: [{device.alias}].[{old_cbln_parsed[i].name}] {new_cbln_parsed[i].value}m")
-                else:
-                    print(f"[CBLN]: [{device.alias}].[{old_cbln_parsed[i].name}] {old_cbln_parsed[i].value}m -> {new_cbln_parsed[i].value}m")
-        device.cbln = cbln
-    if device.scsr != scsr:
-        old_scsr_parsed = parse_scsr(device.scsr)
-        new_scsr_parsed = parse_scsr(scsr)
-        for i in range(len(old_scsr_parsed)):
-            if old_scsr_parsed[i].value != new_scsr_parsed[i].value:
-                print(f"[SCSR]: [{device.alias}].[{old_scsr_parsed[i].name}] {old_scsr_parsed[i].value} -> {new_scsr_parsed[i].value}")
-        device.scsr = scsr
+    #bcr, bsr, cbln, scsr = [int(i) for i in topic[1:-1].split(", ")]
+    try:
+        topic = eval(topic)
+        bcr, bsr, cbln, scsr = topic[0]
+        reinit_lwip_counter = topic[1]
+        reactivate_counter = topic[2]
+        if device.bcr != bcr:
+            old_bcr_parsed = parse_bcr(device.bcr)
+            new_bcr_parsed = parse_bcr(bcr)
+            for i in range(len(old_bcr_parsed)):
+                if old_bcr_parsed[i].value != new_bcr_parsed[i].value:
+                    print(f"[BCR]: [{device.alias}].[{old_bcr_parsed[i].name}] {old_bcr_parsed[i].value} -> {new_bcr_parsed[i].value}")
+            device.bcr = bcr
+        if device.bsr != bsr:
+            old_bsr_parsed = parse_bsr(device.bsr)
+            new_bsr_parsed = parse_bsr(bsr)
+            for i in range(len(old_bsr_parsed)):
+                if old_bsr_parsed[i].value != new_bsr_parsed[i].value:
+                    print(f"[BSR]: [{device.alias}].[{old_bsr_parsed[i].name}] {old_bsr_parsed[i].value} -> {new_bsr_parsed[i].value}")
+            device.bsr = bsr
+        if device.cbln != cbln:
+            old_cbln_parsed = parse_cbln(device.cbln)
+            new_cbln_parsed = parse_cbln(cbln)
+            for i in range(len(old_cbln_parsed)):
+                if old_cbln_parsed[i].value != new_cbln_parsed[i].value:
+                    if old_cbln_parsed[i].name == "Cable Length" and old_cbln_parsed[i].value == 0:
+                        print(f"[CBLN]: [{device.alias}].[{old_cbln_parsed[i].name}] {new_cbln_parsed[i].value}m")
+                    else:
+                        print(f"[CBLN]: [{device.alias}].[{old_cbln_parsed[i].name}] {old_cbln_parsed[i].value}m -> {new_cbln_parsed[i].value}m")
+            device.cbln = cbln
+        if device.scsr != scsr:
+            old_scsr_parsed = parse_scsr(device.scsr)
+            new_scsr_parsed = parse_scsr(scsr)
+            for i in range(len(old_scsr_parsed)):
+                if old_scsr_parsed[i].value != new_scsr_parsed[i].value:
+                    print(f"[SCSR]: [{device.alias}].[{old_scsr_parsed[i].name}] {old_scsr_parsed[i].value} -> {new_scsr_parsed[i].value}")
+            device.scsr = scsr
+        if device.reactivate_counter != reactivate_counter:
+            device.reactivate_counter = reactivate_counter
+            print(f"[LAN]: [{device.alias}] reactivate_counter[{reactivate_counter}]")
+        if device.reinit_lwip_counter != reinit_lwip_counter:
+            device.reinit_lwip_counter = reinit_lwip_counter
+            print(f"[LAN]: [{device.alias}] reinit_lwip_counter[{reinit_lwip_counter}]")
+    except:
+        pass
 
 def parse_message(topic: Topic, payload: str|bytes|bytearray|int|float):
     if isinstance(payload, bytes):
